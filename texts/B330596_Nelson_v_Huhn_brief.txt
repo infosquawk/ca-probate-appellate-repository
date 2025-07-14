@@ -1,0 +1,35 @@
+This case brief is an automatically generated brief of the Court's opinion, in the case of ** Huhn v. Nelson (appeal), of the ** Appeal from the trial court's order confirming appraisals as arbitration awards.
+
+Here is a legal case brief based on the provided summaries:
+
+**Case Name:** Huhn v. Nelson (appeal)
+
+**Court and Date:** [Not specified]
+
+**Procedural Posture:** Appeal from the trial court's order confirming appraisals as arbitration awards
+
+**Facts:**
+
+The case involves a trust created by Walter and Betty Huhn in 1998, which provides for the distribution of assets to their children upon Betty's death. The parties' settlement term sheet requires the properties to be appraised on Betty's death to equalize the distribution. After Betty's death, disputes arose between Eric Huhn and Karen Nelson over the administration of the trust and the value of its real property assets.
+
+**Legal Issues:**
+
+1. Whether the parties' settlement term sheet constitutes an agreement to arbitrate.
+2. Whether Finestone's appraisal report can be confirmed as an arbitration award.
+3. Whether the parties had a fair opportunity to comment on or rebut the information relied upon by Finestone in forming her opinion of value.
+
+**Holding:**
+
+The court holds that:
+
+1. The settlement term sheet does not constitute an agreement to arbitrate because it only provides for a binding valuation, whereas something more is required to qualify as an arbitration agreement.
+2. Finestone's appraisal report cannot be confirmed as an arbitration award because the procedure does not meet the four attributes of an arbitration: (1) a third-party decision-maker chosen by the parties; (2) a mechanism for ensuring neutrality in the rendering of the decision; (3) an opportunity for both parties to be heard; and (4) a binding decision.
+
+**Reasoning:**
+
+The court emphasizes California case law that an arbitration agreement can exist even if the parties do not use the word "arbitrate." However, a party cannot be required to submit to arbitration any issue that they have not agreed to submit. The court notes that there is no evidence presented that Eric and Karen intended for the settlement term sheet to operate as an agreement to arbitrate. Additionally, the court finds that Finestone's appraisal report contains errors, including the omission of a comparable property sale, which was promptly pointed out by Eric's counsel.
+
+**Disposition:**
+
+The judgment was reversed, and the matter was remanded to the trial court with instructions to deny Karen's petition and return the matter to Finestone (or another mutually agreed upon appraiser) to complete the appraisal reports. Eric Huhn was awarded costs on appeal.
+End of Brief

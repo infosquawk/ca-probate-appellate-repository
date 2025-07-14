@@ -483,7 +483,7 @@
                         "caseNumber": "Analysis-10",
                         "description": "Special legal analysis and commentary on California probate law matters. In-depth examination with practical implications for legal practitioners.",
                         "audioUrl": "#",
-                        "textUrl": "#",
+                        "textUrl": "texts/2025-07-13_Californias_Heritage_of_Estates_analysis.txt",
                         "duration": "Text",
                         "keywords": [
                                     "legal analysis",
@@ -502,7 +502,7 @@
                         "caseNumber": "G063155",
                         "description": "AI-generated case brief for Estate of LAYLA BOYAJIAN (G063155). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
                         "audioUrl": "https://probate-cal.podbean.com/e/case-brief-estate-of-layla-boyajian-g063155/",
-                        "textUrl": "#",
+                        "textUrl": "texts/G063155_Estate_of_LAYLA_BOYAJIAN_brief.txt",
                         "duration": "6:40",
                         "keywords": [
                                     "case brief",
@@ -542,7 +542,7 @@
                         "caseNumber": "B333052",
                         "description": "AI-generated case brief for Conservatorship of ANNE S (B333052). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
                         "audioUrl": "https://probate-cal.podbean.com/e/case-brief-conservatorship-of-anne-s-b333052/",
-                        "textUrl": "#",
+                        "textUrl": "texts/B333052_Conservatorship_of_ANNE_S_brief.txt",
                         "duration": "6:42",
                         "keywords": [
                                     "case brief",
@@ -562,7 +562,7 @@
                         "caseNumber": "B330596",
                         "description": "AI-generated case brief for Nelson v Huhn (B330596). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
                         "audioUrl": "https://probate-cal.podbean.com/e/case-brief-nelson-v-huhn-b330596/",
-                        "textUrl": "#",
+                        "textUrl": "texts/B330596_Nelson_v_Huhn_brief.txt",
                         "duration": "6:52",
                         "keywords": [
                                     "case brief",
@@ -796,7 +796,7 @@
                                 🎧 Audio Coming Soon
                             </button>`
                         }
-                        ${episode.textUrl && episode.textUrl !== '#' && episode.textUrl.startsWith('http') ? 
+                        ${episode.textUrl && episode.textUrl !== '#' && (episode.textUrl.startsWith('http') || episode.textUrl.startsWith('texts/')) ? 
                             `<a href="${episode.textUrl}" class="btn btn-secondary" target="_blank">
                                 📄 Read Text
                             </a>` : 

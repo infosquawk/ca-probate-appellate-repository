@@ -1,0 +1,32 @@
+This case brief is an automatically generated brief of the Court's opinion in the case of ** In re Anne S. (Conservatorship), issued by Unknown Judge(s) of the ** California Court of Appeal, [Date Not Specified].
+
+Here is a legal case brief based on the provided chunk summaries:
+
+**Case Name:** In re Anne S. (Conservatorship)
+
+**Court and Date:** California Court of Appeal, [Date Not Specified]
+
+**Procedural Posture:** Appeal from judgment on the pleadings dismissing Hankin's petition for conservatorship and awarding sanctions.
+
+**Facts:**
+
+* Marc B. Hankin, a neighbor of Anne S., filed a petition for appointment of a probate conservator for Anne.
+* The Joint Petition was supported by declarations from Anne's family, friends, and medical personnel.
+* Anne executed a Settlement Agreement with her stepson Jonathan S. and Barbara Lerer, which resolved the conservatorship disputes.
+* Hankin opposed the Settlement Agreement, arguing Anne lacked capacity to sign legal documents.
+
+**Legal Issue(s):**
+
+* Whether Hankin has standing to bring a petition for conservatorship under Probate Code section 1820.
+* Whether Hankin had standing as an "interested person" or "friend" to petition for Anne's conservatorship.
+
+**Holding:** The court held that Hankin lacked standing to bring a petition for conservatorship under Probate Code section 1820 and that his arguments were legally frivolous, warranting the award of sanctions.
+
+**Reasoning:**
+
+* Hankin is not an "interested person" because he does not meet the statutory definitions of an heir, beneficiary, creditor, or other with a property right in or claim against the trust estate or decedent's estate.
+* Hankin is not a "friend" because his only interaction with Anne was a single fleeting encounter, and Anne herself denied knowing Hankin or considering him a friend.
+* Hankin does not qualify under any of the remaining categories of possible petitioners listed in section 1820.
+
+**Conclusion:** The court affirmed the trial court's decision, concluding that Hankin lacked standing to petition for conservatorship of Anne under Probate Code section 1820 and that his arguments were legally frivolous.
+End of Brief
