@@ -788,12 +788,22 @@
                     </div>
                     <div class="episode-description">${episode.description}</div>
                     <div class="episode-actions">
-                        <a href="${episode.audioUrl}" class="btn btn-primary" target="_blank">
-                            🎧 Listen Now
-                        </a>
-                        <a href="${episode.textUrl}" class="btn btn-secondary">
-                            📄 Read Text
-                        </a>
+                        ${episode.audioUrl && episode.audioUrl !== '#' && episode.audioUrl.startsWith('http') ? 
+                            `<a href="${episode.audioUrl}" class="btn btn-primary" target="_blank">
+                                🎧 Listen Now
+                            </a>` : 
+                            `<button class="btn btn-primary" disabled style="opacity: 0.5; cursor: not-allowed;">
+                                🎧 Audio Coming Soon
+                            </button>`
+                        }
+                        ${episode.textUrl && episode.textUrl !== '#' && episode.textUrl.startsWith('http') ? 
+                            `<a href="${episode.textUrl}" class="btn btn-secondary" target="_blank">
+                                📄 Read Text
+                            </a>` : 
+                            `<button class="btn btn-secondary" disabled style="opacity: 0.5; cursor: not-allowed;">
+                                📄 Text Coming Soon
+                            </button>`
+                        }
                     </div>
                 </div>
             `).join('');
