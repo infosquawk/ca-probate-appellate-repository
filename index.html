@@ -141,26 +141,101 @@
             background-size: 30px 30px;
         }
 
-        .hero h1 {
+        .hero-title {
             font-family: 'League Spartan', sans-serif;
-            font-size: 2.8rem;
+            font-size: 2.2rem;
             font-weight: 800;
             text-transform: uppercase;
             letter-spacing: 3px;
-            margin-bottom: 1.5rem;
+            margin-bottom: 3rem;
             text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+            position: relative;
+            z-index: 1;
+            color: #f3e3c3;
+        }
+
+        .cover-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
             position: relative;
             z-index: 1;
         }
 
-        .hero p {
-            font-size: 1.3rem;
-            opacity: 0.95;
-            max-width: 800px;
-            margin: 0 auto;
-            font-weight: 300;
+        .cover-item {
             position: relative;
-            z-index: 1;
+            border-radius: 15px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            border: 3px solid #c2a86f;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            background: #ffffff;
+        }
+
+        .cover-item:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+            border-color: #f3e3c3;
+        }
+
+        .cover-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: all 0.4s ease;
+        }
+
+        .cover-item:hover .cover-image {
+            filter: brightness(0.8);
+        }
+
+        .cover-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(47, 79, 79, 0.95));
+            color: #f3e3c3;
+            padding: 2rem 1.5rem 1.5rem 1.5rem;
+            transform: translateY(100%);
+            transition: all 0.4s ease;
+        }
+
+        .cover-item:hover .cover-overlay {
+            transform: translateY(0);
+        }
+
+        .cover-title {
+            font-family: 'League Spartan', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+            color: #f3e3c3;
+        }
+
+        .cover-description {
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            opacity: 0.9;
+            line-height: 1.4;
+        }
+
+        .cover-stats {
+            font-family: 'League Spartan', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #c2a86f;
+            border: 1px solid #c2a86f;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            display: inline-block;
         }
 
         .stats {
@@ -470,13 +545,39 @@
                 gap: 1.5rem;
             }
 
-            .hero h1 {
-                font-size: 2.2rem;
+            .hero-title {
+                font-size: 1.8rem;
                 letter-spacing: 2px;
+                margin-bottom: 2rem;
             }
 
-            .hero p {
+            .cover-gallery {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+                max-width: 350px;
+            }
+
+            .cover-item {
+                min-height: 200px;
+                border-width: 2px;
+            }
+
+            .cover-item:hover {
+                transform: translateY(-5px) scale(1.01);
+            }
+
+            .cover-overlay {
+                padding: 1.5rem 1rem 1rem 1rem;
+            }
+
+            .cover-title {
                 font-size: 1.1rem;
+                letter-spacing: 1px;
+            }
+
+            .cover-description {
+                font-size: 0.85rem;
+                margin-bottom: 0.8rem;
             }
 
             .controls {
@@ -556,9 +657,34 @@
     <div class="container">
         <main>
             <section class="hero">
-                <h1>Professional Legal Resource</h1>
-                <p>Comprehensive repository of California probate law appellate decisions, case briefs, and legal analysis for legal professionals, researchers, and practitioners.</p>
-            </section>
+            <h1 class="hero-title">California Probate Code Appellate Case Information Repository</h1>
+            <div class="cover-gallery">
+                    <div class="cover-item" data-filter="opinion">
+                            <img src="covers/cover_opinions.png" alt="Appellate Opinions" class="cover-image">
+                            <div class="cover-overlay">
+                                <h3 class="cover-title">Appellate Opinions</h3>
+                                <p class="cover-description">Complete court decisions with professional audio narration</p>
+                                <div class="cover-stats">5 Episodes</div>
+                            </div>
+                        </div>
+                        <div class="cover-item" data-filter="brief">
+                            <img src="covers/cover_briefs.png" alt="Case Briefs" class="cover-image">
+                            <div class="cover-overlay">
+                                <h3 class="cover-title">Case Briefs</h3>
+                                <p class="cover-description">AI-generated legal analysis with practical guidance</p>
+                                <div class="cover-stats">4 Episodes</div>
+                            </div>
+                        </div>
+                        <div class="cover-item" data-filter="analysis">
+                            <img src="covers/cover_special.png" alt="Legal Analysis" class="cover-image">
+                            <div class="cover-overlay">
+                                <h3 class="cover-title">Legal Analysis</h3>
+                                <p class="cover-description">Historical examination and scholarly commentary</p>
+                                <div class="cover-stats">1 Episode</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
             <section class="stats">
                 <div class="stat-card fade-in">
@@ -832,6 +958,15 @@
             filterButtons.forEach(btn => btn.addEventListener('click', handleFilter));
             navLinks.forEach(link => link.addEventListener('click', handleNavigation));
             
+            // Add cover gallery click handlers
+            const coverItems = document.querySelectorAll('.cover-item');
+            coverItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const filter = this.dataset.filter;
+                    handleCoverClick(filter);
+                });
+            });
+            
             // Add scroll animations
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
@@ -891,6 +1026,30 @@
             renderEpisodes();
         }
 
+        function handleCoverClick(filter) {
+            currentFilter = filter;
+            
+            // Update nav states
+            navLinks.forEach(link => link.classList.remove('active'));
+            const matchingNavLink = document.querySelector(`.nav-link[data-filter="${filter}"]`);
+            if (matchingNavLink) matchingNavLink.classList.add('active');
+            
+            // Update filter buttons
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            const matchingBtn = document.querySelector(`.filter-btn[data-filter="${filter}"]`);
+            if (matchingBtn) matchingBtn.classList.add('active');
+            
+            // Scroll to content section
+            const contentSection = document.querySelector('.content-section');
+            if (contentSection) {
+                contentSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+            
+            renderEpisodes();
+        }
         function renderEpisodes() {
             const filteredEpisodes = episodes.filter(episode => {
                 const matchesFilter = currentFilter === 'all' || episode.type === currentFilter;
