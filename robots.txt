@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://infosquawk.github.io/ca-probate-appellate-repository/sitemap.xml
+
+# SEO optimizations for legal content
+Crawl-delay: 1
+
+# Allow search engines to index all content
+Allow: /index.html
+Allow: /*.html
+Allow: /*.css
+Allow: /*.js
+
+# Professional legal resource - encourage indexing
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Legal and academic crawlers welcome
+User-agent: *
+Allow: /
