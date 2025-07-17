@@ -83,25 +83,24 @@ class ComprehensiveWebsiteUpdater:
         if 'case_brief' in file_path_lower or '_brief' in file_path_lower:
             filename = Path(file_path).name
             
-            # Try to find the matching file in website/texts/
-            if self.website_texts_dir.exists():
+            # First try: exact filename match in website/texts/
+            exact_match_path = self.website_texts_dir / filename
+            if exact_match_path.exists():
+                return f"texts/{filename}"
+            
+            # Second try: find by case number in filename
+            if case_number and self.website_texts_dir.exists():
                 for txt_file in self.website_texts_dir.glob("*.txt"):
-                    # Match by case number or filename pattern
-                    if case_number and case_number.upper() in txt_file.name.upper():
-                        return f"texts/{txt_file.name}"
-                    elif filename.lower() in txt_file.name.lower():
+                    # Match files that start with the case number and contain "Case_Brief"
+                    if (txt_file.name.upper().startswith(case_number.upper()) and 
+                        'case_brief' in txt_file.name.lower()):
                         return f"texts/{txt_file.name}"
             
-            # Fallback: construct expected filename
-            if case_number:
-                expected_files = [
-                    f"texts/{case_number}_(Case_Brief)_{filename}",
-                    f"texts/{case_number}_brief.txt",
-                    f"texts/{filename}"
-                ]
-                for expected in expected_files:
-                    if (self.website_dir / expected.replace('texts/', '')).exists():
-                        return expected
+            # Third try: broader filename matching
+            if self.website_texts_dir.exists():
+                for txt_file in self.website_texts_dir.glob("*.txt"):
+                    if filename.lower() == txt_file.name.lower():
+                        return f"texts/{txt_file.name}"
             
             return '#'
         
@@ -277,15 +276,15 @@ class ComprehensiveWebsiteUpdater:
                 'date': '2025-07-13',
                 'caseNumber': 'Analysis-14',
                 'description': 'Special legal analysis and commentary on California probate law matters. In-depth examination with practical implications for legal practitioners.',
-                'audioUrl': '#',
+                'audioUrl': 'https://www.podbean.com/ew/pb-thdza-1904721',
                 'textUrl': 'texts/2025-07-13_Californias_Heritage_of_Estates_analysis.txt',
                 'pdfUrl': '',
-                'duration': 'Text',
+                'duration': 'Audio',
                 'keywords': ['legal analysis', 'commentary', 'special edition', 'probate law'],
                 'source': 'special_edition'
             }
             self.all_episodes.append(episode)
-            print(f"📊 Found 1 special edition analysis")
+            print(f"📊 Found 1 special edition analysis with audio")
     
     def convert_podcast_episode(self, case_key: str, case_info: Dict) -> Optional[Dict]:
         """Convert podcast episode from logs to website format"""
