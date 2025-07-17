@@ -1,0 +1,550 @@
+Filed 7/10/25 
+CERTIFIED FOR PUBLICATION 
+ 
+ 
+IN THE COURT OF APPEAL OF THE STATE OF CALIFORNIA 
+ 
+SECOND APPELLATE DISTRICT 
+ 
+DIVISION TWO 
+ 
+Conservatorship of the Person and 
+Estate of ANNE S. 
+     B333052 
+MARC B. HANKIN, 
+Petitioner and Appellant, 
+v. 
+ANNE S., 
+Objector and Respondent. 
+     (Los Angeles County 
+     Super. Ct. No. 22STPB07456) 
+ 
+APPEAL from orders of the Superior Court of Los Angeles 
+County, Jessica A. Uzcategui, Judge. Affirmed. 
+ 
+Marc B. Hankin, in pro. per.; and Evan D. Marshall for 
+Petitioner and Appellant. 
+ 
+Jeffer, Mangels, Butler & Mitchell and Vatche J. Zetjian for 
+Objector and Respondent. 
+____________________ 
+ 
+ 
+
+ 
+2
+Marc B. Hankin appeals a probate court order granting 
+judgment on the pleadings and dismissing his petition for the 
+appointment of a probate conservator for Anne S.1 Hankin also 
+appeals the court's imposition of $5,577 in sanctions. In this 
+appeal, we consider who is authorized by Probate Code 
+section 1820 to petition for the appointment of conservators and 
+whether the trial court correctly concluded Hankin was not so 
+authorized in this case. Because we agree Hankin is not an 
+authorized petitioner and sanctions were appropriate, we affirm. 
+FACTUAL AND PROCEDURAL BACKGROUND 
+ 
+On July 28, 2022, attorneys G. Scott Sobel and Marc B. 
+Hankin petitioned for Sobel's appointment as probate conservator 
+of the person and estate of Anne (the Joint Petition). Hankin 
+represented Sobel for purposes of the Joint Petition. Hankin is 
+also Anne's "neighbor" who "lives one street to the east"; he met 
+Anne once "while [he] and his wife were taking a walk," and he 
+"chatted [with her] for several minutes." Sobel stated he had 
+known Anne and her now-deceased husband since 1990, and he 
+was "a constant confidant and adviser to Anne." Barbara Lerer, 
+who had been Anne's health care agent under a 2007 advanced 
+healthcare directive, joined the Joint Petition as a co-petitioner in 
+favor of Sobel's appointment. 
+ 
+The Joint Petition was supported by a number of 
+declarations from Anne's family (including her stepson, 
+Jonathan S.), friends, medical personnel, and other individuals. 
+Essentially, it alleged Anne was being unduly influenced and 
+ 
+1  
+We refer to Anne and her stepson, Jonathan S., by first 
+names and last initials. (See Cal. Rules of Court, rule 8.90(b)(2), 
+(11).) 
+
+ 
+3
+possibly mistreated by her housemate, Nadine Brownen. It also 
+claimed Brownen attempted to orchestrate a sale of Anne's home.  
+ 
+Anne, through attorney Vatche J. Zetjian, objected to being 
+placed under conservatorship and objected to the Joint Petition 
+on August 9, 2022. In October 2022, Lerer requested her joinder 
+to the Joint Petition be dismissed without prejudice. 
+ 
+Several months later in January 2023, Jonathan filed a 
+competing petition requesting his own appointment as Anne's 
+conservator. That petition relied upon the declarations submitted 
+in connection with the Joint Petition in August 2022 to assert 
+Anne could not provide for her personal needs or manage her 
+financial resources.  
+Thereafter, on January 30, 2023, Anne, Jonathan, and 
+Lerer executed a Settlement Agreement to resolve their disputes 
+arising from the conservatorship proceedings. Among its 
+provisions, the Settlement Agreement included Brownen's signed 
+agreement to move out of Anne's home in exchange for a total of 
+$10,000 in payments to Brownen, agreements by Anne for certain 
+professionals to manage her finances, personal affairs, and 
+medical care, and an agreement Anne would not change her trust 
+or sell her home without a court order. The Settlement 
+Agreement was signed by attorney Zetjian as counsel for Anne 
+and was contingent on court approval. In order to facilitate that 
+approval, Jonathan filed a petition to be appointed Anne's 
+temporary conservator. 
+On February 14, 2023, Sobel substituted Hankin out as his 
+attorney and proceeded pro se. That same day, Sobel requested 
+dismissal of his portion of the Joint Petition. After Sobel 
+withdrew, Hankin maintained the petition for appointment of a 
+conservator in his own right. We will refer to the Joint Petition 
+
+ 
+4
+after Sobel's dismissal as the Hankin Petition. Hankin also 
+sought an order authorizing a doctor to complete a capacity 
+declaration regarding Anne, which the court denied. 
+On March 13, 2023, Jonathan moved ex parte for the trial 
+court to approve the Settlement Agreement. The following day, 
+Hankin opposed on the ground Anne had no capacity to sign the 
+Settlement Agreement or other legal documents. The court then 
+appointed Jonathan as temporary conservator with limited 
+powers to approve petitions to approve the Settlement Agreement 
+and for a substituted judgment. On March 24, 2023, Jonathan 
+duly petitioned for approval of the Settlement Agreement. 
+Hankin opposed the settlement.  
+Meanwhile, on April 5, 2023, Anne, still represented by 
+Zetjian, moved for sanctions against Hankin pursuant to Code of 
+Civil Procedure section 128.7. She argued Hankin was a stranger 
+to her with "no legal authority to bring . . . a petition or to 
+participate in conservatorship matters concerning [her]." Anne 
+asserted the pendency of the Hankin Petition and Hankin's 
+opposition to the settlement wrongfully delayed the 
+implementation of the Settlement Agreement and had caused her 
+and other parties to incur additional expenses. She asked for 
+$5,577 in attorney fees incurred since Sobel's withdrawal of his 
+petition on February 14, 2023. Jonathan joined the motion and 
+asked for $6,720 for his attorney fees. Hankin opposed sanctions 
+on the grounds his claims and contentions were not frivolous and 
+were warranted by existing law.  
+Through attorney Zetjian, Anne moved for judgment on the 
+pleadings and to dismiss the Hankin Petition for lack of standing 
+on May 4, 2023. Jonathan and Lerer joined the motion. Hankin 
+opposed it. 
+
+ 
+5
+On July 20, 2023, the trial court granted Anne's motion for 
+judgment on the pleadings and determined Hankin lacked 
+standing to petition for conservatorship of Anne pursuant to 
+Probate Code section 1820.2 On the same date, the court granted 
+Anne's motion for sanctions in part: it determined the Hankin 
+Petition was legally frivolous and awarded $5,577 in sanctions 
+against Hankin, payable to Anne. It declined to award the 
+sanctions requested by Jonathan. Hankin timely appealed both 
+orders. (See Code Civ. Proc., § 904.1, subd. (a)(1), (12); Cal. Rules 
+of Court, rule 8.104(a), (e).) 
+DISCUSSION 
+I. 
+The Trial Court Did Not Err in Granting Judgment 
+on the Pleadings 
+The trial court determined "Hankin does not meet any of 
+[the] criteria" to maintain a petition pursuant to section 1820, 
+and therefore "the petition does not state facts sufficient to 
+constitute a cause of action." (See Fremont Indemnity Co. v. 
+Fremont General Corp. (2007) 148 Cal.App.4th 97, 112 ["lack of 
+standing . . . and the failure to state facts sufficient to constitute 
+a cause of action . . . are general grounds for demurrer" and are 
+both "considered a failure to state facts sufficient to constituted a 
+cause of action"]; see also Code Civ. Proc., § 430.10, subds. (b), 
+(e).) The trial court did not err. 
+A. 
+Standard of Review 
+" 'A motion for judgment on the pleadings is equivalent to a 
+demurrer and is governed by the same de novo standard of 
+ 
+2  
+All further undesignated references are to the Probate 
+Code. 
+
+ 
+6
+review.' " (People ex rel. Harris v. Pac Anchor Transportation, Inc. 
+(2014) 59 Cal.4th 772, 777.) 
+B. 
+A Section 1820 Petition Must Be Brought by a 
+Proper Party 
+In general, "every action [must] be prosecuted in the name 
+of the real party in interest." (Cloud v. Northrop Grumman Corp. 
+(1998) 67 Cal.App.4th 995, 1004; see also Code Civ. Proc., § 367.) 
+"Generally, 'the person possessing the right sued upon by reason 
+of the substantive law is the real party in interest.' " (Del Mar 
+Beach Club Owners Assn. v. Imperial Contracting Co. (1981) 
+123 Cal.App.3d 898, 906.) A party "lack[s] standing" if he is "not 
+the real party in interest." (Cloud, at p. 1004.) If a court "finds [a 
+party has] no standing, it should sustain the demurrer or dismiss 
+the petition." (Barefoot v. Jennings (2020) 8 Cal.5th 822, 827 
+[§ 17200 standing].) 
+In the specific context of section 1820, "the proposed 
+conservatee, spouse, domestic partner, relative, or other 
+'interested' agency, person, or friend has standing to file a 
+petition for a probate conservatorship." (Conservatorship of 
+John L. (2010) 48 Cal.4th 131, 144, quoting § 1820, subd. (a).) 
+When interpreting those terms, " ' " ' "[o]ur fundamental task . . . 
+is to determine the Legislature's intent so as to effectuate the 
+law's purpose. We first examine the statutory language, giving it 
+a plain and commonsense meaning. We do not examine that 
+language in isolation, but in the context of the statutory 
+framework as a whole in order to determine its scope and purpose 
+and to harmonize the various parts of the enactment. If the 
+language is clear, courts must generally follow its plain meaning 
+unless a literal interpretation would result in absurd 
+
+ 
+7
+consequences the Legislature did not intend." ' " ' " (In re N.R. 
+(2023) 15 Cal.5th 520, 538.) 
+C. 
+Hankin Has No Standing to Petition Under 
+Section 1820 
+Hankin argues he has standing to petition for 
+conservatorship of Anne as an " 'interested person' " or a 
+" 'friend.' " The record shows Hankin's association with Anne is 
+limited to being her "neighbor" who "lives one street to the east," 
+meeting her once "while [he] and his wife were taking a walk," 
+and "chatt[ing] for several minutes." Hankin has cited no 
+authority in which an individual with such a fleeting and tenuous 
+connection to the proposed conservatee has successfully 
+petitioned for conservatorship. On the contrary, well-settled law 
+plainly supports the trial court's conclusion Hankin is neither an 
+interested person nor a friend for purposes of section 1820. 
+1. 
+Hankin Is Not an "Interested Person" 
+The Legislature expressly defined what it meant by 
+"interested person" for purposes of the Probate Code. Section 48 
+defines an " 'interested person' " as: "(1) An heir, devisee, child, 
+spouse, creditor, beneficiary, and any other person having a 
+property right in or claim against a trust estate or the estate of a 
+decedent which may be affected by the proceeding. [¶] (2) Any 
+person having priority for appointment as personal 
+representative. [¶] (3) A fiduciary representing an interested 
+person." (§ 48, subd. (a); see also § 20.) It also notes the definition 
+"of 'interested person' as it relates to particular persons may vary 
+from time to time and shall be determined according to the 
+particular purposes of, and matter involved in, any proceeding." 
+(§ 48, subd. (b).) For purposes of conservatorship proceedings, the 
+Probate Code further provides " '[i]nterested person' includes, but 
+
+ 
+8
+is not limited to: [¶] (a) Any interested state, local, or federal 
+entity or agency. [¶] (b) Any interested public officer or employee 
+of this state or of a local public entity of this state or of the 
+federal government." (§ 1424, subds. (a)–(b); see also § 1401.) 
+Courts have traditionally characterized an "interested 
+person" under the Probate Code as someone who could be 
+financially affected by the probate proceedings. (See Estate of 
+Prindle (2009) 173 Cal.App.4th 119, 126–127 [insurance company 
+was an interested person]; see also Tepper v. Wilkins (2017) 
+10 Cal.App.5th 1198, 1206 ["simply being [an elder's] child is not 
+sufficient to confer standing" where child had no "legally 
+cognizable interest in her mother's revocable living trust"]; Estate 
+of Sobol (2014) 225 Cal.App.4th 771, 782 [interested person has 
+" ' "a property right in or claim against a trust estate . . . which 
+may be affected by the proceeding" ' "]; Estate of O'Brien (1966) 
+246 Cal.App.2d 788, 792 ["An 'interested person' is one who has a 
+pecuniary interest . . . ."].) In other probate contexts, courts have 
+explained that limitation serves the important purpose of 
+"prevent[ing] persons with no interest from delaying the 
+settlement of the estate." (Estate of Plaut (1945) 27 Cal.2d 424, 
+429 [will contest]; see also Barefoot v. Jennings, supra, 8 Cal.5th 
+at p. 828 [rejecting an expansive view of § 17200 standing that 
+would "allow individuals with no interest in a trust to bring a 
+claim against the trust"].)  
+With that in mind, we note Hankin has neither identified 
+an ambiguity in the statutory definitions of "interested person," 
+nor explained how he qualifies as one under those definitions or 
+the cases interpreting that term. Rather, he argues he is entitled 
+to standing because he seeks a conservatorship "for the personal 
+protection of an incompetent," and thus his standing "should be 
+
+ 
+9
+evaluated according to the needs and circumstances of the 
+proposed conservatee." More broadly, he asserts it would 
+generally be beneficial to encourage neutral advocates "of the 
+elder's needs" to come forward, particularly because few people 
+are "willing to shoulder a legal action to protect [a] senior."3 On 
+the other hand, Anne argues an expansive interpretation of 
+section 1820 standing risks "weaponization of the 
+conservatorship process" "by a nosy stranger," potentially 
+subjecting elders to "debilitating, costly legal battles."  
+As a court, it is not our role "to ' "sit in judgment of the 
+Legislature's wisdom in balancing such competing public 
+policies." ' " (Los Angeles County Metropolitan Transportation 
+Authority v. Alameda Produce Market, LLC (2011) 52 Cal.4th 
+1100, 1113.) Instead, we must " 'follow the public policy choices 
+actually discernible from the Legislature's statutory 
+enactments.' " (Id. at p. 1114.) The statutory language, purpose, 
+and context here clearly support the trial court's conclusion 
+Hankin had no standing as an "interested person" pursuant to 
+section 1820. For that reason, Hankin's "argument . . . the 
+statutes could or 'should have been written differently [is] more 
+appropriately addressed to the Legislature' " in the first instance. 
+(Skidgel v. California Unemployment Ins. Appeals Bd. (2021) 
+12 Cal.5th 1, 26.) 
+At bottom, Hankin's unsupported personal opinion that the 
+law should give him standing is irrelevant to our determination 
+of whether it actually does. (See Peake v. Underwood (2014) 
+227 Cal.App.4th 428, 442–444 (Peake) [party's novel 
+ 
+3  
+That is not a concern in this case, where multiple 
+concerned individuals sought to protect Anne. 
+
+ 
+10
+interpretation of the statute was not supported by "any 
+reasonable legal principles"].) And even if a trial court has some 
+discretion to allow someone to proceed as an interested party (see 
+Estate of Sobol, supra, 225 Cal.App.4th at p. 782), the trial court's 
+refusal to do so here was reasonable in light of Hankin's fleeting 
+and tangential association with Anne. 
+Thus, the trial court did not err in concluding Hankin is not 
+an interested person under section 1820. 
+2. 
+Hankin Is Not Anne's "Friend" 
+Hankin also argues he is a "friend" of Anne for purposes of 
+section 1820. The Probate Code does not specifically define 
+"friend." That conveys the Legislature's intention "for [the] term 
+to bear its ordinary meaning." (In re N.R., supra, 15 Cal.5th at 
+p. 539.) "[D]ictionaries can provide a helpful resource for 
+ascertaining the common meanings attached to a word or 
+phrase." (Ibid.) The Oxford English Dictionary defines "friend 
+[noun]" as "[a] person with whom one has developed a close and 
+informal relationship of mutual trust and intimacy; (more 
+generally) a close acquaintance." (Oxford English Dict. Online 
+(3d ed. 2024) <https://doi.org/10.1093/OED/7018253925> [as of 
+July 2, 2025] archived at <https://perma.cc/S2D4-KCVW>.) 
+Merriam-Webster Unabridged Dictionary defines "friend" as "one 
+that seeks the society or welfare of another whom he or she holds 
+in affection, respect, or esteem or whose companionship and 
+personality are pleasurable: an intimate associate especially 
+when other than a lover or relative." (Merriam-Webster 
+Unabridged Dict. (Online 2025) <https://unabridged.merriam-
+webster.com/unabridged/friend> [as of July 2, 2025] archived at 
+<https://perma.cc/UB5V-3MKZ>.) Those definitions suggest the 
+
+ 
+11
+term "friend" refers to a mutual relationship with some degree of 
+intimacy or closeness. 
+Hankin's assertion of his ostensible friendship with Anne 
+rests entirely upon his unilateral view of their purported 
+relationship–for example, that "he encountered and befriended" 
+Anne on one occasion while walking in his neighborhood. On the 
+other hand, Anne stated "on the Court record at the hearing on 
+March 14, 2023," that "she does not know Mr. Hankin and that 
+he is a complete stranger." Hankin has not disputed that Anne 
+does not consider him a friend. That, in combination with 
+Hankin's single fleeting neighborhood interaction with her, is 
+fatal to his argument.4 On this record, the trial court did not err 
+in concluding Hankin was not Anne's "friend."  
+Hankin proposes a novel six-factor test to determine "who 
+may be considered a 'friend' of the proposed conservatee." We 
+decline to adopt that idiosyncratic test, which is not grounded in 
+caselaw, the Probate Code, or any ordinary definition of "friend." 
+Nor has Hankin identified " 'more than one reasonable 
+interpretation' " of section 1820 that would allow us to consider 
+the public policy arguments he makes in favor of his test. (Sierra 
+Club v. Superior Court (2013) 57 Cal.4th 157, 166.)  
+3. 
+Hankin Is Not Otherwise Entitled to 
+Standing 
+Hankin does not argue he qualifies under any of the 
+remaining categories of possible petitioners listed in section 1820, 
+subdivision (a). (See § 1820, subd. (a)(1)–(4).) Nevertheless, to the 
+ 
+4  
+Although we can imagine factual scenarios in which the 
+term "friend" could be ambiguous, those are not presented here 
+and we do not consider them. 
+
+ 
+12
+extent he argues standing under section 1820 widely extends to 
+"any person," we do not agree. If the Legislature intended to 
+extend standing under section 1820 to a broad swath of 
+individuals, it could have simply given standing to "any person," 
+a phrase it has used frequently in the Probate Code and other 
+statutes. (See Suleman v. Superior Court (2010) 180 Cal.App.4th 
+1287, 1297 & fn. 2.) Its decision not to use that term in section 
+1820 suggests it did not intend to allow "any person" to petition 
+for a conservatorship. (See Suleman, at pp. 1297–1298 
+[Legislature's use of " 'other person on behalf of the minor' " in 
+§ 1510 suggests its "definition . . . is different from" " 'any 
+person' " or " 'interested person' "].) 
+We are also not persuaded by Hankin's argument he is 
+entitled to standing because "[p]rofessional conservators 
+routinely act as petitioners" although they "hardly qualif[y] as a 
+'friend' " or an interested person under the trial court's definition. 
+As we have already explained, the Probate Code expressly 
+includes in the definition of an " 'interested person' " "[a] 
+fiduciary representing an interested person." (§ 48, subd. (a)(3).) 
+And when a conservatorship "petitioner . . . is a professional 
+fiduciary," the Code requires his petition to comply with certain 
+additional requirements. (§ 1821, subd. (c); see § 2340.) Thus, the 
+reference to professional conservators as possible petitioners in 
+section 1821, subdivision (c) does not advance Hankin's 
+contention that the list in section 1820, subdivision (a) is not 
+exhaustive and can apply to any person.5 
+ 
+5  
+We need not resolve the precise contours of a professional 
+conservator's standing now because Hankin does not contend he 
+is a professional conservator. (See Burden v. Snowden (1992) 
+ 
+
+ 
+13
+D. 
+We Do Not Entertain Hankin's Remaining 
+Arguments 
+In light of our conclusion Hankin lacks standing, we need 
+not consider his arguments regarding the supposed harms 
+resulting from dismissal of his petition.  
+We also decline to consider arguments Hankin made for the 
+first time in his reply brief, including his assertions the trial 
+court made other incorrect decisions and engaged in supposed 
+wrongdoing. They are forfeited. (See People v. Mickel (2016) 
+2 Cal.5th 181, 197 ["Ordinarily, we do not consider arguments 
+raised for the first time in a reply brief."]; Shih v. Starbucks 
+Corp. (2020) 53 Cal.App.5th 1063, 1071, fn. 4 [the plaintiff 
+"forfeited this argument . . . by failing to raise it in her opening 
+brief"].)  
+II. 
+The Trial Court Did Not Abuse Its Discretion in 
+Imposing Sanctions 
+The trial court imposed sanctions of $5,577 on Hankin for 
+maintaining the Hankin Petition after Sobel's withdrawal. We 
+conclude the award was reasonable.   
+A. 
+Standard of Review and Legal Framework 
+An award of sanctions pursuant to Code of Civil Procedure 
+section 128.7 is reviewed for abuse of discretion. (Peake, supra, 
+227 Cal.App.4th at p. 441.) A trial court abuses its discretion 
+when it exercises it " ' "in an arbitrary, capricious or patently 
+absurd manner that resulted in a manifest miscarriage of 
+justice." ' " (People v. Williams (2013) 58 Cal.4th 197, 270–271; 
+ 
+2 Cal.4th 556, 570 ["Because we find the [statute] inapplicable, 
+we need not and do not decide the other issues raised by the 
+parties regarding" its interpretation]; cf. §§ 1821, subd. (c), 2340.) 
+
+ 
+14
+see also Gonzales v. Nork (1978) 20 Cal.3d 500, 507 ["as long as 
+there exists 'a reasonable or even fairly debatable justification . . . 
+for the [trial court's decision], such action will not be . . . set 
+aside' "].) 
+"[A] court may impose sanctions . . . if the court concludes 
+the pleading was filed for an improper purpose or was 
+indisputably without merit, either legally or factually." (Peake, 
+supra, 227 Cal.App.4th at p. 440; see also Code Civ. Proc., 
+§ 128.7, subds. (b)–(c).) The moving party must also "show the 
+party's conduct in asserting the claim was objectively 
+unreasonable," meaning " 'any reasonable attorney would agree 
+that [it] is totally and completely without merit.' " (Peake, at 
+p. 440.) 
+B. 
+The Trial Court Reasonably Determined 
+Hankin's Petition Was Legally Frivolous 
+The trial court determined Hankin's petition was legally 
+frivolous when "Hankin . . . proceeded with the petition and 
+alleged he had standing on his own behalf," after Sobel had 
+withdrawn. A claim "is legally frivolous if it is 'not warranted by 
+existing law or a good faith argument for the extension, 
+modification, or reversal of existing law.' " (Peake, supra, 
+227 Cal.App.4th at p. 440.) 
+As explained above, Hankin's argument that he has 
+standing as an "interested person" or "friend" to petition for 
+Anne's conservatorship is unwarranted by existing law. Hankin 
+cited no authority suggesting a neighbor, who once chatted for a 
+few minutes with the proposed conservatee during a walk and 
+
+ 
+15
+whom the proposed conservatee regards as a stranger, was an 
+interested person or friend for purposes of section 1820.6 
+Thus, Hankin must demonstrate the trial court abused its 
+discretion in concluding there was no good faith argument for the 
+modification of existing law to extend standing to persons like 
+him. He has not done so. Hankin argues he should have standing 
+because he was "an independent voice" and sought "to protect the 
+innocent." But Hankin's policy arguments to broaden 
+section 1820 standing "[are] not founded on any reasonable legal 
+principles." (Peake, supra, 227 Cal.App.4th at p. 443.) Moreover, 
+when " 'statutory language is unambiguous, "we presume the 
+Legislature meant what it said, and the plain meaning of the 
+statute governs." ' " (Ibid.) Although we do not foreclose the 
+possibility the language of section 1820 could be ambiguous in 
+some factual circumstances not presented here, it not ambiguous 
+on this record. There is thus no room for us to " ' "rewrite the law 
+or give [its] words an effect different from the plain and direct 
+import of the terms used." ' " (Peake, at p. 443.) 
+ 
+6  
+Hankin argues two "Law Revision Commissioners" told him 
+"Probate Code § 48 [defining an interested person] did not govern 
+Probate Code § 1820." (Italics omitted.) Even if Hankin's 
+recollection of unspecified conversations at unspecified times is 
+accurate, no reasonable attorney would believe those amounted 
+to binding statements of existing law, particularly when the 
+Probate Code specifically provides otherwise (and has so provided 
+for nearly 35 years). (See § 20 ["the definitions in this part govern 
+the construction of this code"]; cf. former § 20, added by 
+Stats. 1983, ch. 842, § 21, and repealed by Stats. 1990, ch. 79, 
+§ 13, eff. July 1, 1991.) 
+
+ 
+16
+Considering this record as a whole, we conclude the trial 
+court did not abuse its discretion in awarding sanctions. Hankin's 
+arguments for his own standing clearly lacked merit "under well-
+settled law," he presented no "colorable legal or factual argument 
+. . . supporting an extension of existing law" to those 
+circumstances, and Anne's counsel provided Hankin with specific 
+legal and factual grounds during the statutory safe harbor period 
+demonstrating Hankin's standing arguments had no merit. 
+(Peake, supra, 227 Cal.App.4th at pp. 448–449.)7 
+DISPOSITION 
+ 
+The orders are affirmed. Anne is entitled to costs on appeal. 
+(See Cal. Rules of Court, rule 8.278(a)(4).) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RICHARDSON, J. 
+ 
+WE CONCUR: 
+ 
+ 
+LUI, P. J. 
+ 
+ 
+ 
+CHAVEZ, J. 
+ 
+7  
+Because sanctions were warranted on that ground, we do 
+not address whether Hankin's petition also had an improper 
+purpose. (See Eichenbaum v. Alon (2003) 106 Cal.App.4th 967, 
+976 ["A violation of any of [the conditions in section 128.7, 
+subdivision (b)] may give rise to sanctions."].) 

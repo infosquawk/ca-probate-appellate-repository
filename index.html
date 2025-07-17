@@ -688,20 +688,20 @@
 
             <section class="stats">
                 <div class="stat-card fade-in">
-                    <div class="stat-number" id="totalEpisodes">10</div>
+                    <div class="stat-number" id="totalEpisodes">14</div>
                     <div class="stat-label">Total Episodes</div>
                 </div>
                 <div class="stat-card fade-in">
-                    <div class="stat-number" id="appealateOpinions">5</div>
-                    <div class="stat-label">Appellate Opinions</div>
+                    <div class="stat-number" id="totalResources">25+</div>
+                    <div class="stat-label">Legal Resources</div>
                 </div>
                 <div class="stat-card fade-in">
-                    <div class="stat-number" id="caseBriefs">4</div>
-                    <div class="stat-label">Case Briefs</div>
+                    <div class="stat-number" id="originalPdfs">5</div>
+                    <div class="stat-label">Original PDFs</div>
                 </div>
                 <div class="stat-card fade-in">
-                    <div class="stat-number" id="legalAnalysis">1</div>
-                    <div class="stat-label">Legal Analysis</div>
+                    <div class="stat-number" id="courtOpinions">7</div>
+                    <div class="stat-label">Court Opinions</div>
                 </div>
             </section>
 
@@ -743,14 +743,92 @@
         const episodes = [
             {
                         "id": 1,
+                        "type": "opinion",
+                        "title": "In re DOMINIC H - Unknown",
+                        "court": "California Appellate Court",
+                        "date": "2025-07-16",
+                        "caseNumber": "B341350",
+                        "description": "Appellate court decision in case B341350, addressing significant issues in California probate law. Generated using Enhanced StyleTTS2 neural voice synthesis with complete legal opinion content.",
+                        "audioUrl": "https://probate-cal.podbean.com/e/in-re-dominic-h-unknown-1752688962/",
+                        "textUrl": "#",
+                        "duration": "1:21:42",
+                        "keywords": [
+                                    "probate",
+                                    "California",
+                                    "appellate",
+                                    "b341350"
+                        ],
+                        "source": "podcast"
+            },
+            {
+                        "id": 2,
+                        "type": "brief",
+                        "title": "Brief: Unknown Case",
+                        "court": "California Appellate Court",
+                        "date": "2025-07-16",
+                        "caseNumber": "B341350",
+                        "description": "AI-generated case brief for Unknown Case (B341350). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
+                        "audioUrl": "https://probate-cal.podbean.com/e/case-brief-unknown-case-b341350/",
+                        "textUrl": "probate_cases\pdfs\unpublished_text\2025-07_Case_Briefs_(Unpublished)\B341350_(Case_Brief)__(unpublished).txt",
+                        "duration": "8:03",
+                        "keywords": [
+                                    "case brief",
+                                    "probate",
+                                    "California",
+                                    "analysis",
+                                    "b341350"
+                        ],
+                        "source": "case_brief"
+            },
+            {
+                        "id": 3,
+                        "type": "opinion",
+                        "title": "Case C102321 - Unknown",
+                        "court": "California Appellate Court",
+                        "date": "2025-07-14",
+                        "caseNumber": "C102321",
+                        "description": "Appellate court decision in case C102321, addressing significant issues in California probate law. Generated using Enhanced StyleTTS2 neural voice synthesis with complete legal opinion content.",
+                        "audioUrl": "https://probate-cal.podbean.com/e/case-c102321-unknown-1752538567/",
+                        "textUrl": "#",
+                        "duration": "30:24",
+                        "keywords": [
+                                    "probate",
+                                    "California",
+                                    "appellate",
+                                    "c102321"
+                        ],
+                        "source": "podcast"
+            },
+            {
+                        "id": 4,
+                        "type": "brief",
+                        "title": "Brief: Unknown Case",
+                        "court": "California Appellate Court",
+                        "date": "2025-07-14",
+                        "caseNumber": "C102321",
+                        "description": "AI-generated case brief for Unknown Case (C102321). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
+                        "audioUrl": "https://probate-cal.podbean.com/e/case-brief-unknown-case-c102321/",
+                        "textUrl": "probate_cases\pdfs\unpublished_text\2025-07_Case_Briefs_(Unpublished)\C102321_(Case_Brief)__(unpublished).txt",
+                        "duration": "7:04",
+                        "keywords": [
+                                    "case brief",
+                                    "probate",
+                                    "California",
+                                    "analysis",
+                                    "c102321"
+                        ],
+                        "source": "case_brief"
+            },
+            {
+                        "id": 5,
                         "type": "analysis",
                         "title": "Analysis: 2025-07-13 - Californias Heritage Of Estates",
                         "court": "Legal Analysis Special Edition",
                         "date": "2025-07-13",
-                        "caseNumber": "Analysis-10",
+                        "caseNumber": "Analysis-14",
                         "description": "Special legal analysis and commentary on California probate law matters. In-depth examination with practical implications for legal practitioners.",
                         "audioUrl": "#",
-                        "textUrl": "texts/californias_heritage_complete.html",
+                        "textUrl": "C:\Users\Ryan\Google_Drive\My_Documents\Work\0000-Claude-Workspace\scholar_podcast\special_edition\processed\2025-07-13_-_Californias_Heritage_of_Estates.txt",
                         "duration": "Text",
                         "keywords": [
                                     "legal analysis",
@@ -761,7 +839,7 @@
                         "source": "special_edition"
             },
             {
-                        "id": 2,
+                        "id": 6,
                         "type": "brief",
                         "title": "Brief: Estate of LAYLA BOYAJIAN",
                         "court": "California Appellate Court",
@@ -769,7 +847,7 @@
                         "caseNumber": "G063155",
                         "description": "AI-generated case brief for Estate of LAYLA BOYAJIAN (G063155). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
                         "audioUrl": "https://probate-cal.podbean.com/e/case-brief-estate-of-layla-boyajian-g063155/",
-                        "textUrl": "texts/G063155_Estate_of_LAYLA_BOYAJIAN_brief.txt",
+                        "textUrl": "probate_cases\pdfs\published_text\2025-07_Case_Briefs_(Published)\G063155_(Case_Brief)_Estate_of_LAYLA_BOYAJIAN_(published).txt",
                         "duration": "6:40",
                         "keywords": [
                                     "case brief",
@@ -781,7 +859,7 @@
                         "source": "case_brief"
             },
             {
-                        "id": 3,
+                        "id": 7,
                         "type": "brief",
                         "title": "Brief: Conservatorship of Julie C",
                         "court": "California Appellate Court",
@@ -789,7 +867,7 @@
                         "caseNumber": "B341750",
                         "description": "AI-generated case brief for Conservatorship of Julie C (B341750). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
                         "audioUrl": "https://probate-cal.podbean.com/e/case-brief-conservatorship-of-julie-c-b341750/",
-                        "textUrl": "#",
+                        "textUrl": "probate_cases\pdfs\unpublished_text\2025-07_Case_Briefs_(Unpublished)\B341750_(Case_Brief)_Conservatorship_of_Julie_C_(unpublished).txt",
                         "duration": "6:19",
                         "keywords": [
                                     "case brief",
@@ -801,7 +879,7 @@
                         "source": "case_brief"
             },
             {
-                        "id": 4,
+                        "id": 8,
                         "type": "brief",
                         "title": "Brief: Conservatorship of ANNE S",
                         "court": "California Appellate Court",
@@ -809,7 +887,7 @@
                         "caseNumber": "B333052",
                         "description": "AI-generated case brief for Conservatorship of ANNE S (B333052). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
                         "audioUrl": "https://probate-cal.podbean.com/e/case-brief-conservatorship-of-anne-s-b333052/",
-                        "textUrl": "texts/B333052_Conservatorship_of_ANNE_S_brief.txt",
+                        "textUrl": "probate_cases\pdfs\published_text\2025-07_Case_Briefs_(Published)\B333052_(Case_Brief)_Conservatorship_of_ANNE_S_(published).txt",
                         "duration": "6:42",
                         "keywords": [
                                     "case brief",
@@ -821,7 +899,7 @@
                         "source": "case_brief"
             },
             {
-                        "id": 5,
+                        "id": 9,
                         "type": "brief",
                         "title": "Brief: Nelson v Huhn",
                         "court": "California Appellate Court",
@@ -829,7 +907,7 @@
                         "caseNumber": "B330596",
                         "description": "AI-generated case brief for Nelson v Huhn (B330596). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
                         "audioUrl": "https://probate-cal.podbean.com/e/case-brief-nelson-v-huhn-b330596/",
-                        "textUrl": "texts/B330596_Nelson_v_Huhn_brief.txt",
+                        "textUrl": "probate_cases\pdfs\unpublished_text\2025-07_Case_Briefs_(Unpublished)\B330596_(Case_Brief)_Nelson_v_Huhn_(unpublished).txt",
                         "duration": "6:52",
                         "keywords": [
                                     "case brief",
@@ -841,7 +919,7 @@
                         "source": "case_brief"
             },
             {
-                        "id": 6,
+                        "id": 10,
                         "type": "opinion",
                         "title": "Case B333052 - Unknown",
                         "court": "California Appellate Court",
@@ -860,16 +938,16 @@
                         "source": "podcast"
             },
             {
-                        "id": 7,
+                        "id": 11,
                         "type": "opinion",
                         "title": "Case S282314",
                         "court": "California Appellate Court",
                         "date": "2025-07-07",
                         "caseNumber": "S282314",
                         "description": "Appellate court decision in case S282314, addressing significant issues in California probate law. Generated using Enhanced StyleTTS2 neural voice synthesis with complete legal opinion content.",
-                        "audioUrl": "https://probate-cal.podbean.com/e/california-probate-case-s282314-smart-fallback/",
+                        "audioUrl": "#",
                         "textUrl": "#",
-                        "duration": "1:18:36",
+                        "duration": "2:37:13",
                         "keywords": [
                                     "probate",
                                     "California",
@@ -879,16 +957,16 @@
                         "source": "podcast"
             },
             {
-                        "id": 8,
+                        "id": 12,
                         "type": "opinion",
                         "title": "Case G063155",
                         "court": "California Appellate Court",
                         "date": "2025-07-07",
                         "caseNumber": "G063155",
                         "description": "Appellate court decision in case G063155, addressing significant issues in California probate law. Generated using Enhanced StyleTTS2 neural voice synthesis with complete legal opinion content.",
-                        "audioUrl": "https://probate-cal.podbean.com/e/california-probate-case-g063155-smart-fallback/",
+                        "audioUrl": "#",
                         "textUrl": "#",
-                        "duration": "31:13",
+                        "duration": "1:02:26",
                         "keywords": [
                                     "probate",
                                     "California",
@@ -898,16 +976,16 @@
                         "source": "podcast"
             },
             {
-                        "id": 9,
+                        "id": 13,
                         "type": "opinion",
                         "title": "Case B341750",
                         "court": "California Appellate Court",
                         "date": "2025-07-07",
                         "caseNumber": "B341750",
                         "description": "Appellate court decision in case B341750, addressing significant issues in California probate law. Generated using Enhanced StyleTTS2 neural voice synthesis with complete legal opinion content.",
-                        "audioUrl": "https://probate-cal.podbean.com/e/california-probate-case-b341750-smart-fallback/",
+                        "audioUrl": "#",
                         "textUrl": "#",
-                        "duration": "23:53",
+                        "duration": "47:45",
                         "keywords": [
                                     "probate",
                                     "California",
@@ -917,16 +995,16 @@
                         "source": "podcast"
             },
             {
-                        "id": 10,
+                        "id": 14,
                         "type": "opinion",
                         "title": "Case B330596",
                         "court": "California Appellate Court",
                         "date": "2025-07-07",
                         "caseNumber": "B330596",
                         "description": "Appellate court decision in case B330596, addressing significant issues in California probate law. Generated using Enhanced StyleTTS2 neural voice synthesis with complete legal opinion content.",
-                        "audioUrl": "https://probate-cal.podbean.com/e/california-probate-case-b330596-smart-fallback/",
+                        "audioUrl": "#",
                         "textUrl": "#",
-                        "duration": "57:34",
+                        "duration": "1:55:08",
                         "keywords": [
                                     "probate",
                                     "California",
@@ -983,14 +1061,11 @@
         });
 
         function updateStats() {
-            const opinions = episodes.filter(ep => ep.type === 'opinion').length;
-            const briefs = episodes.filter(ep => ep.type === 'brief').length;
-            const analysis = episodes.filter(ep => ep.type === 'analysis').length;
-            
-            document.getElementById('totalEpisodes').textContent = episodes.length;
-            document.getElementById('appealateOpinions').textContent = opinions;
-            document.getElementById('caseBriefs').textContent = briefs;
-            document.getElementById('legalAnalysis').textContent = analysis;
+            // Statistics are now hardcoded in HTML to reflect comprehensive resources
+            // Total Episodes: 10 podcast episodes
+            // Legal Resources: 25+ (podcasts + PDFs + texts + briefs + analysis)
+            // Original PDFs: 5 court document PDFs 
+            // Court Opinions: 7 original court opinion texts
         }
 
         function handleSearch(e) {
@@ -1098,11 +1173,21 @@
                         }
                         ${episode.textUrl && episode.textUrl !== '#' && (episode.textUrl.startsWith('http') || episode.textUrl.startsWith('texts/')) ? 
                             `<a href="${episode.textUrl}" class="btn btn-secondary" target="_blank">
-                                📄 Read Text
+                                📄 Brief/Analysis
                             </a>` : 
                             `<button class="btn btn-secondary" disabled style="opacity: 0.5; cursor: not-allowed;">
-                                📄 Text Coming Soon
+                                📄 Brief Coming Soon
                             </button>`
+                        }
+                        ${episode.pdfUrl && episode.pdfUrl !== '' ? 
+                            `<a href="${episode.pdfUrl}" class="btn btn-secondary" target="_blank" style="background: #c2a86f; color: #2f4f4f; border-color: #c2a86f;">
+                                📋 Original PDF
+                            </a>` : ''
+                        }
+                        ${episode.originalTextUrl && episode.originalTextUrl !== '' ? 
+                            `<a href="${episode.originalTextUrl}" class="btn btn-secondary" target="_blank" style="background: #5c1f1f; color: #f3e3c3; border-color: #5c1f1f;">
+                                📄 Court Opinion
+                            </a>` : ''
                         }
                     </div>
                 </div>
