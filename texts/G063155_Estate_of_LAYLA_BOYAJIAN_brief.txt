@@ -1,0 +1,33 @@
+This case brief is an automatically generated brief of the Court's opinion in the case of ** Boyajian v. [Unknown], issued by Unknown Judge(s) of the ** The case was certified for partial publication by the California Court of Appeal..
+
+Here is the legal case brief:
+
+**Case Name:** Boyajian v. [Unknown]
+
+**Court and Date:** California Court of Appeal (date unknown)
+
+**Procedural Posture:** The case was certified for partial publication by the California Court of Appeal.
+
+**Facts:**
+
+* Layla Boyajian passed away in 2020, leaving behind a will contest involving her children Robert and Anush.
+* Robert asserts that a document signed by Layla in 2018 revoked her previous will from 2006, while Anush contends that the revocation was invalid because it did not involve physical alteration of the will.
+
+**Legal Issue(s):**
+
+1. Whether revocation by cancellation requires physical alteration of the will or if a separate document can be used to revoke a prior will.
+2. Whether Robert has shown undue influence by proving that Anush influenced Layla's creation of the 2006 will.
+
+**Holding:** The California Court of Appeal held that:
+
+* A stand-alone revocation document does not constitute a subsequent will unless it also transfers property upon death, and physical alteration is required to effect a revocation by cancellation.
+* Robert failed to present sufficient evidence to support his claim of undue influence in the creation of Layla's 2006 will.
+
+**Reasoning:**
+
+* The court construed the term "cancel" in section 6120 to require a physical act akin to burning, tearing, obliterating, or destroying, and found that the 2018 document does not meet this definition.
+* The court concluded that the 2018 document is not a "subsequent will" because it does not meet the definition of an instrument under the Probate Code.
+* Robert's evidence did not meet the standard for finding undue influence, as he failed to present uncontradicted and unimpeached evidence of undue influence, and the trial court found that Layla was not vulnerable to Anush's influence in 2006.
+
+**Conclusion:** The court reverses the trial court's decision and remands the case with directions for the trial court to vacate the letters of administration, admit the 2006 will to probate, and conduct further proceedings.
+End of Brief

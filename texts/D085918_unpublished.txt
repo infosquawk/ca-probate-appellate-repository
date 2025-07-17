@@ -1,0 +1,513 @@
+ 
+ 
+Filed 7/17/25  Estate of Ahbez CA4/1 
+NOT TO BE PUBLISHED IN OFFICIAL REPORTS 
+ 
+California Rules of Court, rule 8.1115(a), prohibits courts and parties from citing or relying on opinions not certified for 
+publication or ordered published, except as specified by rule 8.1115(b).  This opinion has not been certified for publication 
+or ordered published for purposes of rule 8.1115.   
+ 
+COURT OF APPEAL, FOURTH APPELLATE DISTRICT 
+ 
+DIVISION ONE 
+ 
+STATE OF CALIFORNIA 
+ 
+ 
+ 
+Estate of EDEN AHBEZ, Deceased. 
+ 
+ 
+DEBRA GUESS, 
+ 
+ 
+Petitioner and Respondent, 
+ 
+ 
+v. 
+ 
+JOSEPH ROMERSA, 
+ 
+ 
+Objector and Appellant. 
+ 
+  D085918 
+ 
+ 
+  (Super. Ct. No. PRIN2200674) 
+ 
+ 
+APPEAL from an order of the Superior Court of Riverside County, 
+Russell Moore Velasquez, Judge.  Affirmed. 
+ 
+Fox Rothschild, Sean R. Kenney, and Eric Andrew Bevan, for Petitioner 
+and Respondent. 
+ 
+Romersa Law and Julie M. Romersa, for Objector and Appellant. 
+I. INTRODUCTION 
+ 
+Respondent Debra Guess filed a petition seeking to establish ownership 
+of certain property, including copyrights, from Eden Ahbez’s trust (Ahbez 
+
+ 
+2 
+ 
+Trust), pursuant to Probate Code,1 section 850.  Joseph Romersa, beneficiary 
+and successor trustee to the Ahbez Trust and executor of Ahbez’s estate, 
+objected to the petition.  The probate court found that Guess owned the 
+copyrights and granted the petition.  
+ 
+Romersa appeals on three grounds.  First, he contends Guess did not 
+have standing to bring the petition.  Second, he argues the probate court 
+lacked subject matter jurisdiction over the petition.  Third, he asserts the 
+probate court’s rulings were an abuse of discretion and lacked evidentiary 
+support.  We reject each ground and affirm. 
+ 
+II. BACKGROUND 
+ 
+During his life, Eden Ahbez composed a substantial catalog of music, 
+including the song “Nature Boy,” recorded by Nat King Cole in the late 1940s.  
+Ahbez copyrighted his compositions.  The copyrights are recorded with the 
+Library of Congress, while the royalties, almost all from Nature Boy, are 
+managed by The American Society of Composers, Authors & Publishers 
+(ASCAP).  The royalties from Nature Boy are significant. 
+ 
+In 1979, David Janowiak, Guess’s stepfather, met Ahbez in Desert Hot 
+Springs, California, while Ahbez lived in a motel in Indio, California.  At the 
+time, Janowiak sold real estate.  Janowiak initially would assist Ahbez with 
+tasks.  They eventually became friends.  Joseph Romersa is a producer and 
+sound engineer who worked with Ahbez on Ahbez’s music during the last 
+seven years of Ahbez’s life.  
+ 
+In March 1992, Ahbez executed a will.  He named Janowiak executor 
+and bequeathed to him all Ahbez’s property, including the copyrights to his 
+ 
+1  
+All subsequent statutory references are to the Probate Code unless 
+otherwise specified. 
+
+ 
+3 
+ 
+songs.  Later that year, Ahbez formed the Ahbez Trust, into which he placed 
+all his real and personal property, including the copyrights.  He named 
+Janowiak as trustee and Romersa as successor trustee, to serve if Janowiak 
+was unable.  Ahbez also named both Janowiak and Romersa as beneficiaries, 
+with Janowiak to receive all Ahbez’s real and personal property, except “the 
+musical instruments, tapes, records, etc.” in Romersa’s possession.  
+ 
+In 1995, Ahbez died in a car accident.  Janowiak did not probate 
+Ahbez’s will but submitted documents to the Library of Congress to transfer 
+to himself Ahbez’s copyrights.  Janowiak then began collecting royalties from 
+the copyrights.  He deposited the copyrights, and royalties, in the Janowiak 
+Family Trust.  Janowiak died in 2012, and his wife, Geraldine, died in 2022.  
+Guess, as successor trustee of Janowiak’s trust, then took control of the 
+copyrights and began collecting royalties.  
+ 
+In 2022, 27 years after Ahbez’s death, Romersa filed a petition for 
+probate of Ahbez’s will.  (§ 8000.)  Following briefing and a hearing, the 
+probate court granted Romersa’s petition, ordered the will into probate, and 
+named Romersa as executor.  
+ 
+In that probate action, Guess filed the petition to confirm trust 
+property.  In response, Romersa filed a motion to strike the petition under the 
+anti-SLAPP statute,2 followed by an opposition to the petition.  The court 
+ 
+2  
+“Code of Civil Procedure section 425.16 provides a procedure for the 
+early dismissal of what are commonly known as SLAPP suits (strategic 
+lawsuits against public participation)—litigation of a harassing nature, 
+brought to challenge the exercise of protected free speech rights.”  (Fahlen v. 
+Sutter Central Valley Hospitals (2014) 58 Cal.4th 655, 665, fn. 3.) 
+
+ 
+4 
+ 
+denied the anti-SLAPP motion and set a hearing on the petition.  Romersa 
+chose not to appear at the hearing, either personally or through counsel.3  
+ 
+Based on the entirety of the record, the court found that Ahbez’s 
+property transferred to Janowiak pursuant to the Ahbez Trust and then to 
+Guess as Janowiak’s successor trustee and beneficiary of the Janowiak Trust.  
+Accordingly, the trial court issued an order concluding that “[t]he entirety of 
+the Eden Ahbez music catalog, [including] all copyrights and other 
+intellectual property rights owned by Eden Ahbez as of 10-14-1992, and all 
+royalties derived therefrom, are the property of, and are payable to Debra 
+Guess as trustee of” Janowiak’s trust.  
+ 
+Romersa timely appealed.  
+III. DISCUSSION 
+A.  Guess Had Standing to Bring the Petition 
+ 
+Romersa first argues Guess lacked standing to bring the petition 
+because Guess did not meet the requirements of section 850, subdivision 
+(a)(3)(A).4  We disagree. 
+ 
+1.  Requirements for Bringing a Section 850 Petition 
+ 
+As relevant here, a trustee or “any interested person” has standing to 
+bring a petition under section 850 under specific circumstances, including:  
+(1) “[w]here the trustee is in possession of, or holds title to, real or personal 
+property, and the property, or some interest, is claimed to belong to another,” 
+or (2) “[w]here the trustee has a claim to real or personal property, title to or 
+ 
+3  
+During the hearing, the probate court contacted Romersa’s counsel by 
+telephone.  She confirmed Romersa would not be appearing due to what he 
+perceived as deficiencies in notice.  
+ 
+4  
+Romersa also argues Guess lacked standing to bring the petition under 
+section 17200.  Because Guess had standing under section 850, we do not 
+separately address whether she had standing under section 17200. 
+
+ 
+5 
+ 
+possession of which is held by another.”  (§ 850, subds. (a)(3)(A) & (B).)  
+Section 48 defines an “interested person” as “any [ ] person having a property 
+right in or claim against a trust estate or the estate of a decedent which may 
+be affected by the proceeding.”  (§ 48, subd. (a)(1).) 
+ 
+If an individual meeting these requirements seeks an order “concerning 
+the transfer of property of the trust” the individual must do so by filing a 
+section 850 petition.  (§ 17200.1; Mota v. Superior Court (2007) 
+156 Cal.App.4th 351, 356.) 
+ 
+2.  Standard of Review 
+ 
+“Standing is a question of law that courts typically review de novo.”  
+(Loeber v. Lakeside Joint School District (2024) 103 Cal.App.5th 552, 570.)  
+However, “standing for purposes of the Probate Code is a fluid concept 
+dependent on the nature of the proceeding before the trial court and the 
+parties’ relationship to the proceeding, as well as to the trust (or estate).”  
+(Arman v. Bank of America (1999) 74 Cal.App.4th 697, 702–703.) 
+ 
+Section 48 explains that “[t]he meaning of ‘interested person’ as it 
+relates to particular persons may vary from time to time and shall be 
+determined according to the particular purposes of, and matter involved in, 
+any proceeding.”  (§ 48, subd. (b).)  “Because the determination of whether a 
+party is an interested person pursuant to Probate Code section 48 is subject 
+to the probate court’s discretion, we apply the deferential abuse of discretion 
+standard in reviewing [that] determination.”  (Estate of Prindle (2009) 
+173 Cal.App.4th 119, 126.) 
+
+ 
+6 
+ 
+ 
+Whether a petitioner qualifies for the section 850 scenarios is a 
+question of fact subject to substantial evidence review.  (Estate of Myers 
+(2006) 139 Cal.App.4th 434, 440.)5 
+ 
+3.  Guess Was an “Interested Person” 
+ 
+First, the probate court did not abuse its discretion by concluding 
+Guess was an interested person.  Guess, as Janowiak’s successor trustee and 
+beneficiary, had a property right in, or claim against, the Ahbez Trust.  
+Janowiak was the named beneficiary of the Ahbez Trust with respect to the 
+copyrights.  After Ahbez’s death, Janowiak submitted the will and trust 
+documents to the Library of Congress to transfer ownership of the copyrights 
+to himself and, thereafter, collected royalties.  Notably, Romersa confirmed at 
+a hearing on his probate petition his belief that Janowiak was “in charge” or 
+“in control” of the copyrights in question after Ahbez’s death.  Then, after the 
+death of Janowiak and his wife, Guess took possession of the copyrights as 
+trustee and beneficiary of the Janowiak trust.  At the time Romersa initiated 
+the probate proceedings, Guess was collecting royalties.6  
+ 
+4.  Guess Satisfied the Remaining Requirements of Section 850 
+ 
+As detailed supra, an interested person may bring a section 850 
+petition under either of two opposite situations:  (1) the trustee is in 
+possession of, or holds title to, the subject property, and the property is 
+claimed by another individual; or (2) another individual holds title to, or 
+ 
+5  
+Despite the various applicable standards of review, for the reasons 
+detailed post, the probate court’s finding that Guess had standing to bring the 
+petition must be affirmed under any standard. 
+ 
+6  
+During the pendency of the probate proceedings, Romersa caused 
+ASCAP to stop sending royalty payments to Guess.  
+
+ 
+7 
+ 
+possession of the property, and the property is claimed by the trustee.  (§ 850, 
+subd. (a)(3)(A) & (B).)   
+ 
+Guess purportedly brought the petition under section 850, subdivision 
+(a)(3)(A), and the parties’ arguments focus on that provision.  In his reply, 
+however, Romersa acknowledges an individual may bring a petition 
+regarding trust property under either part (A) or (B) of subdivision (a)(3).  
+Substantial evidence supports the probate court’s finding that Guess met the 
+requirements of section 850, under one or both provisions. 
+ 
+Specifically, in the petition, Guess asserted that Ahbez transferred “all 
+intellectual property rights” to the copyrights to his trust and sought the 
+probate court’s determination of whether Janowiak took ownership of those 
+intellectual property rights as trust beneficiary.  For standing purposes, we 
+treat as true Guess’s properly pled allegations.  (Barefoot v. Jennings (2020) 
+8 Cal.5th 822, 827.)  It follows that either Guess held the titles to the 
+copyrights, or they remained in Ahbez’s trust, and Romersa, as trustee, held 
+those titles.  (See Greenspan v. LADT, LLC (2010) 191 Cal.App.4th 486, 522 
+[trustee holds legal title to property owned by trust].)  Either way, 
+substantial evidence supports a finding that Guess or the trustee held the 
+titles to the copyrights, as required by section 850, subdivisions (a)(3)(A) and 
+(B). 
+ 
+Similarly, substantial evidence supports a finding that Guess satisfied 
+the requirement under either provision that she or the trustee claimed the 
+property.  Guess’s stated purpose in filing the petition was “to assert her legal 
+claim to [the copyrights] and specifically to quiet a competing claim to the 
+intellectual property asserted by . . . Romersa.”  On the other hand, before 
+Guess filed the petition, Romersa identified himself in the probate 
+
+ 
+8 
+ 
+proceedings as trustee and asserted that the Ahbez Trust “left the 
+[copyrights] either outside of the trust or to Joe Romersa.”   
+ 
+As Guess satisfied all the requirements of section 850, subdivision 
+(a)(3), whether under subpart (A) or (B), the probate court did not err by 
+finding Guess had standing to bring the petition. 
+B.  Romersa Has Not Shown Any Defect in Notice 
+ 
+Next, Romersa argues the trial court lacked subject matter jurisdiction 
+over the petition because Guess did not provide sufficient notice of the 
+hearing to all indispensable parties, namely Romersa in his capacities as 
+trustee of the Ahbez Trust and personal representative of Ahbez’s estate.  
+Guess contends any lack of notice was not a jurisdictional issue, and Romersa 
+received notice.  As we shall explain, Romersa’s argument is unpersuasive, 
+regardless of whether his claim is characterized as a challenge to the probate 
+court’s subject matter jurisdiction or an assertion of a facial defect in notice.7 
+ 
+1.  Section 851’s Notice Requirement 
+ 
+Section 851 provides the notice requirement for a petition filed under 
+Section 850.  As relevant here, pursuant to section 851, “[a]t least 30 days 
+prior to the day of the hearing,” the petitioner must serve notice of the 
+hearing and a copy of the petition in compliance with Civil Procedure Code 
+ 
+7  
+In his reply brief, Romersa asserts for the first time that the alleged 
+defects in notice deprived him of due process under the California 
+Constitution.  “[W]e do not consider arguments raised for the first time in 
+a reply brief.”  (Doe v. McLaughlin (2022) 83 Cal.App.5th 640, 657; see Las 
+Lomas Land Co., LLC v. City of Los Angeles (2009) 177 Cal.App.4th 837, 855 
+[declining to consider new due process argument raised for the first time in a 
+reply brief].) 
+
+ 
+9 
+ 
+section 413.10 on “[t]he personal representative, conservator, guardian, or 
+trustee as appropriate.”  (§ 851, subd. (a).)8 
+ 
+2.  Standard of Review 
+ 
+We review notice under section 851 de novo, whether based on a 
+challenge to subject matter jurisdiction or a facial defect in notice.  (Corrales 
+v. California Gambling Control Com. (2023) 93 Cal.App.5th 286, 302  
+[“ ‘ “Where the evidence is not in dispute, a determination of subject matter 
+jurisdiction is a legal question subject to de novo review.” ’ ”]; Ramos v. 
+Homeward Residential, Inc. (2014) 223 Cal.App.4th 1434, 1441 [“[W]e review 
+the trial court’s finding of a facial defect in service de novo.”].) 
+ 
+3.  Romersa Shows No Defect in Notice 
+ 
+Even assuming notice on all indispensable parties was required to 
+confer upon the probate court subject matter jurisdiction over the petition, 
+and further assuming Guess was required to give notice to Romersa both as 
+trustee of the Ahbez Trust and personal representative of the estate, 
+Romersa’s arguments that notice was defective are unpersuasive.  
+ 
+As to Romersa as trustee, his general appearances in the action cured 
+any alleged defects in notice.  (Code Civ. Proc., § 410.50, subd. (a); Fireman’s 
+Fund Ins. Co. v. Sparks Construction, Inc. (2004) 114 Cal.App.4th 1135, 
+1145.)   
+ 
+8  
+Section 851, subdivision (b) provides, in relevant part:  “Except for those 
+persons given notice pursuant to subdivision (a), notice of the hearing, 
+together with a copy of the petition, shall be given . . . as provided in Section 
+17203 if the matter concerns a trust . . . .”  (§ 851, subd. (b), italics added.)  
+Romersa does not argue that subdivision (b) applies here with respect to 
+notice in his capacities as trustee or personal representative.  Based on its 
+plain language, it appears subdivision (b) does not apply because Romersa 
+was due notice under subdivision (a). 
+
+ 
+10 
+ 
+ 
+On February 15, 2024, Guess provided notice of the hearing and a copy 
+of the petition to Romersa, without specifically identifying Romersa’s 
+capacity.  After this notice, Romersa made two general appearances:  First, 
+by filing an anti-SLAPP motion.  And, second by filing an opposition to the 
+petition.  (See Code Civ. Proc., § 1014 [general appearance made when party 
+filed a notice of motion to strike]; Sunrise Financial, LLC v. Superior Court 
+(2019) 32 Cal.App.5th 114, 125 [“[O]pposing a motion other than on 
+jurisdictional grounds normally constitutes a general appearance.”].)  Within 
+these pleadings, Romersa did not expressly limit his appearances and/or 
+arguments to any interest solely as an individual.  In fact, he affirmatively 
+identified himself as “the successor trustee” and “the sole successor trustee.”  
+He also acknowledged Guess could have been proceeding against him “as 
+successor trustee of the Eden Ahbez Trust.”   
+ 
+In making these general appearances, Romersa was representing his 
+interests as trustee, not merely as an individual.  (See Creed v. Schultz (1983) 
+148 Cal.App.3d 733, 740 [“ ‘An act of a defendant . . . which may reasonably 
+be construed to imply that the court has, in [the] action, acquired jurisdiction 
+of the person of the defendant, will be equivalent to an appearance.’ ”].)  
+Having made these general appearances under the role of trustee, he may not 
+now challenge the sufficiency of the notice on him in that capacity.  (Ibid.   
+[“ ‘As a rule one cannot avail himself of the advantage of being a party and 
+escape the responsibilities.’ ”].) 
+
+ 
+11 
+ 
+ 
+We now turn to Romersa as the personal representative of the estate. 
+On May 1, 2024, Guess provided timely notice of the hearing and a copy of 
+the petition to Romersa in his capacity as executor.9  
+ 
+Accordingly, Romersa cannot show that notice was defective. 
+C.  Romersa Has Failed to Establish Any Other Error 
+ 
+Romersa’s final argument is unclear.  He lists purported abuses of 
+discretion and argues that “the sheer volume of abuse warrants a de novo 
+review.”  In addition, he appears to challenge, generally, the sufficiency of the 
+evidence to support the court’s ultimate order on the petition.  We find no 
+error. 
+ 
+1.  Romersa’s Abuse of Discretion Arguments Fail 
+ 
+From what we can discern, Romersa asserts the probate court abused 
+its discretion in several ways.  First, he argues the court deprived him of 
+sufficient time to respond to the petition after denying his anti-SLAPP 
+motion.  Second, he challenges the court’s decision to grant the petition as a 
+punitive measure for Romersa’s failure to appear at the hearing.  Third, he 
+argues the court ignored the law and issued an insufficiently descriptive or 
+overbroad order.  Fourth, he contends the court set an excessive bond when it 
+appointed Romersa executor of Ahbez’s estate.  
+ 
+To the extent Romersa argues the probate court gave him insufficient 
+time to respond to the petition and granted the petition as a form of sanction, 
+his arguments are not supported by the record.  
+ 
+9  
+The February 15, 2024 and May 1, 2024 notices of hearing and proofs of 
+service filed with the probate court are not accompanied by a copy of the 
+petition.  However, the proofs of service are signed under penalty of perjury 
+and indicate that copies of the petition were served along with the notices of 
+hearing.  
+
+ 
+12 
+ 
+ 
+Romersa argued before the probate court that he had 30 days from the 
+date of denial of his anti-SLAPP motion to answer the petition.  The court 
+denied the anti-SLAPP motion on April 30, 2024, and set a hearing on the 
+petition for July 26, 2024, well beyond the 30-day period for Romersa to 
+respond to the petition.  
+ 
+As to sanctions, although the court recognized that granting the 
+petition would be the “appropriate sanction” for Romersa’s failure to appear, 
+ultimately, it did not grant the petition as a sanction.  As discussed post, the 
+court granted the petition based on evidence that Guess was the owner of the 
+copyrights.  In fact, Guess withdrew as moot her request for an order to show 
+cause regarding sanctions following entry of the order granting the petition.  
+Rather than granting the petition as a form of sanction, the court stated its 
+intent to sanction Romersa’s counsel in an amount “not to exceed $500.”   
+ 
+To the extent Romersa questions the probate court’s adherence to the 
+law and the contents of its order, those claims are unsupported by sufficient 
+facts, authority, or cogent argument.  (County of Sacramento v. Singh (2021) 
+65 Cal.App.5th 858, 861; Hearn Pacific Corp. v. Second Generation Roofing, 
+Inc. (2016) 247 Cal.App.4th 117, 150.)   
+ 
+To the extent Romersa purports to challenge the bond amount and the 
+court’s consideration of “elder abuse and undue influence,” he raised those 
+issues in the probate court only with respect to his petition for probate.  Since 
+he did not raise those issues below with respect to Guess’s petition, we do not 
+consider them here.  (See Mendoza v. Trans Valley Transport (2022) 
+75 Cal.App.5th 748, 770 [finding an undeveloped argument raised in a 
+“cursory manner” and buried within another argument did not adequately 
+raise the issue in the trial court or preserve the issue for appeal].) 
+
+ 
+13 
+ 
+ 
+2.  Sufficiency of Evidence 
+ 
+Romersa also appears to argue, generally, that the probate court’s 
+order granting the petition is not supported by sufficient evidence.  To this 
+end, he maintains the probate court was required to find clear and convincing 
+evidence that ownership of the copyrights transferred out of Ahbez’s estate.  
+Even accepting Romersa’s assertion that some, or all, of the probate court’s 
+factual findings underlying its order on the petition had to be supported by 
+clear and convincing evidence, the court’s order was sufficiently supported. 
+ 
+When a court of appeal “review[s] a [trial court’s] finding that a fact has 
+been proved by clear and convincing evidence, the question before [it] is 
+whether the record as a whole contains substantial evidence from which a 
+reasonable fact finder could have found it highly probable that the fact was 
+true.”  (Conservatorship of O.B. (2020) 9 Cal.5th 989, 995–996.)  “Consistent 
+with well-established principles governing review for sufficiency of 
+the evidence, in making this assessment the appellate court must view the 
+record in the light most favorable to the prevailing party below and give due 
+deference to how the trier of fact may have evaluated the credibility of 
+witnesses, resolved conflicts in the evidence, and drawn reasonable 
+inferences from the evidence.”  (Id. at p. 996.) 
+ 
+Here, substantial evidence supports the probate court’s finding that the 
+copyrights at issue passed through the Ahbez Trust to Janowiak and, 
+through his trust to Guess.  Specifically, the court had a copy of the trust 
+instrument which placed the contested copyrights into the Ahbez Trust and 
+provided they were to pass to Janowiak upon Ahbez’s death.  It also had 
+copies of Ahbez’s will and trust documents that Janowiak sent to the Library 
+of Congress for purposes of transferring ownership of the copyrights.  In 
+addition, the court had copies of documents establishing the David J. and 
+
+ 
+14 
+ 
+Geraldine E. Janowiak Living Trust, which placed the contested copyrights 
+into that trust and named Guess as successor trustee and sole beneficiary in 
+the event of the deaths of Janowiak and his wife.  Finally, the court had 
+copies of death certificates for Janowiak and his wife.  
+IV. DISPOSITION 
+ 
+The probate court’s order granting the petition is affirmed.  Costs on 
+appeal are awarded to respondent, Debra Guess.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RUBIN, J. 
+ 
+WE CONCUR: 
+ 
+ 
+ 
+ 
+ 
+O'ROURKE, Acting P. J. 
+ 
+ 
+ 
+ 
+ 
+BUCHANAN, J. 
+ 
+ 
+

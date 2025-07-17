@@ -1,0 +1,238 @@
+1 
+Filed 7/14/25  Conservatorship of the Person of C.S. CA3 
+NOT TO BE PUBLISHED 
+ 
+California Rules of Court, rule 8.1115(a), prohibits courts and parties from citing or relying on opinions not certified for 
+publication or ordered published, except as specified by rule 8.1115(b).  This opinion has not been certified for publication 
+or ordered published for purposes of rule 8.1115. 
+ 
+ 
+ 
+IN THE COURT OF APPEAL OF THE STATE OF CALIFORNIA 
+THIRD APPELLATE DISTRICT 
+(Tehama) 
+---- 
+ 
+ 
+ 
+ 
+Conservatorship of the Person of C.S. 
+C102321 
+ 
+ 
+TEHAMA COUNTY PUBLIC GUARDIAN, as 
+Conservator, etc., 
+ 
+ 
+ 
+Petitioner and Respondent, 
+ 
+ 
+v. 
+ 
+C.S., 
+ 
+ 
+ 
+Objector and Appellant. 
+ 
+ 
+(Super. Ct. No. 24PR000115) 
+ 
+ 
+ 
+ 
+C.S. appeals from an order issued after a bench trial appointing a conservator over 
+her person and estate under the Lanterman-Petris-Short Act (LPS Act) pursuant to 
+Welfare & Institutions Code section 5000 et seq.1  C.S. contends the order should be 
+ 
+1  Further undesignated statutory references are to the Welfare and Institutions Code.  
+
+2 
+reversed because she did not knowingly and intelligently waive her right to a jury trial.  
+We conclude the jury trial waiver was invalid, and therefore we will reverse the order.   
+FACTS AND PROCEEDINGS 
+ 
+Petition and Pretrial Proceedings  
+On August 1, 2024, the Tehama County Public Guardian (public guardian) filed a 
+petition for appointment of temporary and permanent conservator of the person and estate 
+of C.S.  The public guardian filed a conservatorship investigation report along with the 
+petition.  The report detailed C.S.’s history of mental illness and medication 
+noncompliance, and confirmed that “[t]here is no one, at this time, willing or able to offer 
+[C.S] assistance to live independently in the community,” and “[t]here are no viable 
+alternatives to conservatorship at this time.”  On August 9, C.S. was served with a 
+citation for conservatorship and the petition; the citation stated, “You have the right to a 
+jury trial if you wish.”  On August 15, the public guardian filed the citation.   
+On August 26, a hearing was held regarding the petition; C.S. was not present.  
+During the hearing, C.S.’s court-appointed counsel stated:  “Your Honor, [C.S.] is 
+requesting a court trial with no time waiver.”  Based on counsel’s representation, the trial 
+court set a bench trial for September 18.  
+In a hearing held on September 3, county counsel moved to set the trial for a 
+different time on the same date due to its expert’s limited availability.  When the request 
+was brought, C.S.’s counsel stated:  “I am happy to hear what County Counsel has to say, 
+but I cannot change -- agree to change any date to a later date without discussing it with 
+my client,” noting that C.S. had not issued a time waiver.   
+On September 9, at a hearing for trial resetting, C.S.’s counsel confirmed that she 
+spoke with C.S. about the upcoming trial set for September 18:  “[The matter] was 
+continued a week for me to talk to my client.  [¶]  She is not waiving time.  So at this 
+time we’re not agreeable to a continuance or a motion.”  Counsel added, “I believe [C.S.] 
+
+3 
+is going to be in Tehama County Court tomorrow morning for a separate matter and that 
+might change how we proceed on her LPS matter.”   
+The September 18 bench trial was confirmed on September 16.  The court granted 
+C.S.’s counsel’s request that C.S. be personally present at trial. 
+ 
+Bench Trial  
+On September 18, 2024, trial court held the bench trial.  C.S. was present at trial, 
+but the court did not advise her of her right to a jury trial, and her right to a jury trial was 
+not otherwise mentioned.   
+A licensed clinical psychologist testified that she twice evaluated C.S. before trial 
+and reviewed records related to C.S.’s mental and physical health.  The psychologist 
+opined that C.S. was gravely disabled by unspecified schizophrenia, recommended 
+conservatorship, and recommended the public guardian as C.S.’s conservator.   
+ 
+C.S. testified that at the time of trial she was living in a convalescent hospital, but 
+she did not like it there.  She stated that she lived with her husband in a trailer under the 
+Tehama Bridge.  She denied having schizophrenia, denied problems taking her 
+medication, and stated that she did not want to be conserved or remain living in the 
+convalescent hospital.  If she were not conserved, she would not go back to living under 
+the bridge because the trailer had been destroyed in a hit and run accident in a parking lot.  
+Instead, she would buy another vehicle to live in and to use to get to doctors’ 
+appointments, get food stamps because she had Social Security disability income, go 
+shopping with her daughter, cook in her camp trailer, get clothing from Wal-Mart, and 
+earn money from her sno-cone business.  She added that her husband lived in a homeless 
+shelter, and he did not want to get back together with her.   
+The trial court found C.S. to be gravely disabled, and imposed a conservatorship 
+with an expiration date of September 18, 2025.   
+ 
+Defendant timely filed notice of appeal.  The case was fully briefed in May 2025 
+and assigned to the current panel the following month.  
+
+4 
+DISCUSSION 
+ 
+ 
+ 
+C.S. contends reversal is required because the trial court did not advise her of her 
+right to a jury trial, and she did not personally waive her right to a jury trial.2  We agree.  
+ 
+“The LPS Act governs the involuntary detention, evaluation, and treatment of 
+persons who, as a result of mental disorder, are dangerous or gravely disabled.  ([Welf. & 
+Inst. Code,] § 5150 et seq.)  The Act authorizes the superior court to appoint a 
+conservator of the person for one who is determined to be gravely disabled ([id.,] § 5350 
+et seq.), so that he or she may receive individualized treatment, supervision, and 
+placement ([id.,] § 5350.1).”  (Conservatorship of John L. (2010) 48 Cal.4th 131, 142.)  
+A proposed conservatee has “the right to demand a court or jury trial on the issue of 
+whether the person is gravely disabled.”  (Welf. & Inst. Code, § 5350, subd. (d)(1).)  
+Further, the LPS Act incorporates Probate Code section 1828, subdivision (a)(6), which 
+provides that “the court shall inform the proposed conservatee of . . . [¶] . . . [¶] . . . the 
+right . . . to have the matter of the establishment of the conservatorship tried by jury[.]”  
+(See also Conservatorship of C.O. (2021) 71 Cal.App.5th 894, 908 (C.O.) [interpreting 
+Prob. Code, § 1828, subd. (a)(6) as “requir[ing] a trial court to personally advise a 
+proposed conservatee of [their] jury trial right”].) 
+The right to a jury trial in LPS Act commitment proceedings may be waived.  
+There is a split of authority on whether a trial court must obtain a personal, on-the-record 
+waiver of the jury trial right.  (K.R. v. Superior Court (2022) 80 Cal.App.5th 133, 143; 
+ 
+2  We deny C.S.’s motion to strike portions of the public guardian’s brief, but we 
+disregard the portions of the brief that refer to an unpublished opinion.  (See Cal. Rules of 
+Court, rule 977(a) [unpublished opinion “shall not be cited or relied upon by a court or 
+party in any other action or proceeding”]; People v. Webster (1991) 54 Cal.3d 411, 428, 
+fn. 4 [quoting rule 977(a)].)  
+
+5 
+compare Conservatorship of Heather W. (2016) 245 Cal.App.4th 378, 383-384 [holding 
+such a waiver required], with C.O., supra, 71 Cal.App.5th at p. 913 [holding that, absent 
+certain circumstances, counsel may validly waive proposed conservatee’s jury trial 
+right].)  However, the decisions agree “that a trial court must personally advise a person 
+of the statutory right to a jury trial in LPS proceedings.”  (K.R., at p. 143; see Prob. Code, 
+§ 1828, subd. (a)(6); Welf. & Inst. Code, § 5350.)   
+Here, it is undisputed that the trial court never advised C.S. of her right to a jury 
+trial.3  C.S.’s counsel requested a bench trial on August 26, 2024, but C.S. was not 
+present at that hearing.  At trial, which C.S. attended, the court did not advise C.S. of her 
+right to a jury trial or ask her if she waived that right.  
+We need not address whether the trial court erred by accepting C.S.’s counsel’s 
+waiver of C.S.’s right to a jury trial because we conclude the court’s failure to personally 
+advise C.S. of that right was prejudicial, and therefore requires reversal.  While the 
+acceptance of a proposed conservatee’s waiver of the right to a jury trial “ ‘without an 
+express advisement may be deemed harmless if the record affirmatively shows, based on 
+the totality of the circumstances, that the . . . waiver was knowing and voluntary’ ”  
+(C.O., supra, 71 Cal.App.5th at p. 918, quoting People v. Blackburn (2015) 61 Cal.4th 
+1113, 1136), here the totality of the circumstances does not establish a knowing and 
+voluntary waiver.    
+In C.O., the appellate court concluded that C.O.’s waiver was knowing and 
+voluntary on the basis that he was mailed a citation explaining his right to a jury trial, his 
+ 
+3  The court in C.O. recognized, like here, that C.O. was advised of his right to a jury trial 
+by service of a citation.  (C.O., supra, 71 Cal.App.5th at p. 909.)  The court concluded 
+that advisement was not sufficient to satisfy the requirement that the court shall inform 
+the proposed conservatee of the right to a jury trial.  (Ibid.; see Prob. Code, § 1828, subd. 
+(a)(6).)  The court concluded the language in Probate Code section 1828, subdivision 
+(a)(6) “reflect[ed] a legislative intent to ‘judicially ensure’ the proposed conservatee has 
+knowledge of his or her right to a jury trial.”  (C.O., at p. 909.)   
+
+6 
+counsel informed him of his right to jury trial, he was present at the hearing when his 
+counsel stated that he wished a “ ‘court trial,’ ” and he communicated with his counsel 
+about how he wished to proceed.  (C.O., supra, 71 Cal.App.5th at pp. 918-919.)  The 
+C.O. court distinguished Heather W. on the basis that in Heather W., the record was 
+effectively silent about whether the proposed conservatee had been informed of the right 
+to jury trial, whereas in C.O., the proposed conservatee had been informed of his right to 
+a jury trial both in writing and by counsel.  (Id. at p. 919.)  Further, the proposed 
+conservatee in C.O. “did not express any disagreement or indicate that his counsel’s 
+express statement that he wanted a court trial was contrary to his wishes.”  (Ibid.)   
+Here, the only evidence supporting C.S.’s knowing and voluntary waiver was the 
+citation, which provided written notice of her right to a jury trial, and her counsel’s brief 
+statement that “[C.S.] is requesting a court trial with no time waiver.”  But unlike in C.O., 
+C.S. was not present when her attorney waived her right to a jury trial, and counsel 
+provided no details about her conversation (if any) with C.S. to establish that counsel had 
+informed C.S. of her right to a jury trial, or that C.S. had expressed her desire to waive 
+that right.  We note that counsel’s statement that “[C.S.] is requesting a court trial” 
+(italics added) was not sufficient to demonstrate that counsel had informed C.S. of her 
+right to a jury trial and that counsel was relaying C.S.’s knowing and voluntary decision 
+to waive a jury trial.  Rather, as C.S. points out on appeal, it is common practice for 
+attorneys to state their clients’ requests or positions on various issues although the client 
+himself or herself had not personally expressed that preference. 
+Because the totality of the circumstances does not establish C.S.’s knowing and 
+voluntary waiver of her right to a jury trial, the trial court’s failure to expressly advise 
+
+7 
+C.S. of her right to a jury trial cannot be deemed harmless.  (C.O., supra, 71 Cal.App.5th 
+at p. 918.)  Accordingly, we reverse the trial court’s order.4   
+DISPOSITION 
+ 
+The order granting the petition for an LPS Act conservatorship is reversed. 
+ 
+ 
+ 
+ 
+ 
+          /s/ 
+ 
+ 
+Duarte, J. 
+ 
+ 
+ 
+We concur: 
+ 
+ 
+ 
+ 
+          /s/ 
+ 
+Robie, Acting P. J. 
+ 
+ 
+ 
+ 
+          /s/ 
+ 
+Renner, J. 
+ 
+4  C.S. also argues on appeal that the trial court’s imposition of a disability on her was not 
+supported by substantial evidence, and the trial court abused its discretion by failing to 
+consider appointing a family member as the conservator.  Because we reverse the trial 
+court’s order, we need not and do not reach those issues.   
+
