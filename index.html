@@ -1232,7 +1232,7 @@
                         }
                         ${episode.textUrl && episode.textUrl !== '#' && episode.textUrl.startsWith('texts/') ? 
                             `<a href="${episode.textUrl}" class="btn btn-secondary" target="_blank">
-                                📄 ${episode.type === 'analysis' ? 'Text' : 'Case Brief'}
+                                📄 ${episode.type === 'analysis' ? 'Text' : (episode.type === 'opinion' ? 'Case Text' : 'Case Brief')}
                             </a>` : 
                             `<button class="btn btn-secondary" disabled style="opacity: 0.5; cursor: not-allowed;">
                                 📄 Brief Coming Soon
