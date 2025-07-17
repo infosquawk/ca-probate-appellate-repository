@@ -834,7 +834,7 @@
                         "caseNumber": "Analysis-14",
                         "description": "Special legal analysis and commentary on California probate law matters. In-depth examination with practical implications for legal practitioners.",
                         "audioUrl": "https://www.podbean.com/ew/pb-thdza-1904721",
-                        "textUrl": "texts/2025-07-13_Californias_Heritage_of_Estates_analysis.txt",
+                        "textUrl": "texts/californias_heritage_complete.html",
                         "pdfUrl": "",
                         "duration": "Audio",
                         "keywords": [
@@ -1190,7 +1190,7 @@
                         }
                         ${episode.textUrl && episode.textUrl !== '#' && episode.textUrl.startsWith('texts/') ? 
                             `<a href="${episode.textUrl}" class="btn btn-secondary" target="_blank">
-                                📄 Case Brief
+                                📄 ${episode.type === 'analysis' ? 'Text' : 'Case Brief'}
                             </a>` : 
                             `<button class="btn btn-secondary" disabled style="opacity: 0.5; cursor: not-allowed;">
                                 📄 Brief Coming Soon
