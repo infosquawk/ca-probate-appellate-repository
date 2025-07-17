@@ -739,7 +739,7 @@
     </footer>
 
     <script>
-        // Comprehensive episode database from Scholar Podcast System - ALL available content
+        // FIXED episode database with proper web-accessible paths
         const episodes = [
             {
                         "id": 1,
@@ -1062,10 +1062,6 @@
 
         function updateStats() {
             // Statistics are now hardcoded in HTML to reflect comprehensive resources
-            // Total Episodes: 10 podcast episodes
-            // Legal Resources: 25+ (podcasts + PDFs + texts + briefs + analysis)
-            // Original PDFs: 5 court document PDFs 
-            // Court Opinions: 7 original court opinion texts
         }
 
         function handleSearch(e) {
@@ -1125,6 +1121,7 @@
             
             renderEpisodes();
         }
+
         function renderEpisodes() {
             const filteredEpisodes = episodes.filter(episode => {
                 const matchesFilter = currentFilter === 'all' || episode.type === currentFilter;
@@ -1171,9 +1168,9 @@
                                 🎧 Audio Coming Soon
                             </button>`
                         }
-                        ${episode.textUrl && episode.textUrl !== '#' && (episode.textUrl.startsWith('http') || episode.textUrl.startsWith('texts/')) ? 
+                        ${episode.textUrl && episode.textUrl !== '#' && episode.textUrl.startsWith('texts/') ? 
                             `<a href="${episode.textUrl}" class="btn btn-secondary" target="_blank">
-                                📄 Brief/Analysis
+                                📄 Case Brief
                             </a>` : 
                             `<button class="btn btn-secondary" disabled style="opacity: 0.5; cursor: not-allowed;">
                                 📄 Brief Coming Soon
@@ -1186,7 +1183,7 @@
                         }
                         ${episode.originalTextUrl && episode.originalTextUrl !== '' ? 
                             `<a href="${episode.originalTextUrl}" class="btn btn-secondary" target="_blank" style="background: #5c1f1f; color: #f3e3c3; border-color: #5c1f1f;">
-                                📄 Court Opinion
+                                📄 Court Opinion Text
                             </a>` : ''
                         }
                     </div>
