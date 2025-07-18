@@ -764,11 +764,11 @@
             {
                         "id": 2,
                         "type": "brief",
-                        "title": "Brief: Unknown Case",
+                        "title": "Brief: Estate of Eden Ahbez",
                         "court": "California Appellate Court",
                         "date": "2025-07-17",
                         "caseNumber": "D085918",
-                        "description": "AI-generated case brief for Unknown Case (D085918). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
+                        "description": "AI-generated case brief for Estate of Eden Ahbez (D085918). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
                         "audioUrl": "https://probate-cal.podbean.com/e/case-brief-unknown-case-d085918/",
                         "textUrl": "",
                         "pdfUrl": "pdfs/unpublished/D085918_Estate_of_EDEN_AHBEZ_unpublished.pdf",
@@ -806,11 +806,11 @@
             {
                         "id": 4,
                         "type": "brief",
-                        "title": "Brief: Unknown Case",
+                        "title": "Brief: In re Dominic H",
                         "court": "California Appellate Court",
                         "date": "2025-07-16",
                         "caseNumber": "B341350",
-                        "description": "AI-generated case brief for Unknown Case (B341350). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
+                        "description": "AI-generated case brief for In re Dominic H (B341350). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
                         "audioUrl": "https://probate-cal.podbean.com/e/case-brief-unknown-case-b341350/",
                         "textUrl": "texts/B341350_(Case_Brief)_Unknown_(unpublished).txt",
                         "pdfUrl": "pdfs/unpublished/B341350_a_Minor_ISMAEL_H_et_al_v_BERNARDINO_G_unpublished.pdf",
@@ -848,11 +848,11 @@
             {
                         "id": 6,
                         "type": "brief",
-                        "title": "Brief: Unknown Case",
+                        "title": "Brief: Conservatorship of the Person of C",
                         "court": "California Appellate Court",
                         "date": "2025-07-14",
                         "caseNumber": "C102321",
-                        "description": "AI-generated case brief for Unknown Case (C102321). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
+                        "description": "AI-generated case brief for Conservatorship of the Person of C (C102321). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
                         "audioUrl": "https://probate-cal.podbean.com/e/case-brief-unknown-case-c102321/",
                         "textUrl": "texts/C102321_(Case_Brief)_Unknown_(unpublished).txt",
                         "pdfUrl": "pdfs/unpublished/C102321_Conservatorship_of_the_Person_of_C_unpublished.pdf",
@@ -890,11 +890,11 @@
             {
                         "id": 8,
                         "type": "brief",
-                        "title": "Brief: Estate of LAYLA BOYAJIAN",
+                        "title": "Brief: Layla Boyajian, Deceased. Robert Boyajian, As Special Administrator, Etc., Appellant, v. Robert Boyajian, Objector and Appellant. G",
                         "court": "California Appellate Court",
                         "date": "2025-07-12",
                         "caseNumber": "G063155",
-                        "description": "AI-generated case brief for Estate of LAYLA BOYAJIAN (G063155). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
+                        "description": "AI-generated case brief for Layla Boyajian, Deceased. Robert Boyajian, As Special Administrator, Etc., Appellant, v. Robert Boyajian, Objector and Appellant. G (G063155). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
                         "audioUrl": "https://probate-cal.podbean.com/e/case-brief-estate-of-layla-boyajian-g063155/",
                         "textUrl": "texts/G063155_(Case_Brief)_Estate_of_LAYLA_BOYAJIAN_(published).txt",
                         "pdfUrl": "pdfs/published/G063155_Estate_of_LAYLA_BOYAJIAN_published.pdf",
@@ -956,11 +956,11 @@
             {
                         "id": 11,
                         "type": "brief",
-                        "title": "Brief: Nelson v Huhn",
+                        "title": "Brief: Nelson v. Huhn",
                         "court": "California Appellate Court",
                         "date": "2025-07-12",
                         "caseNumber": "B330596",
-                        "description": "AI-generated case brief for Nelson v Huhn (B330596). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
+                        "description": "AI-generated case brief for Nelson v. Huhn (B330596). Professional analysis covering key legal principles, procedural requirements, and practical guidance for practitioners.",
                         "audioUrl": "https://probate-cal.podbean.com/e/case-brief-nelson-v-huhn-b330596/",
                         "textUrl": "texts/B330596_(Case_Brief)_Nelson_v_Huhn_(unpublished).txt",
                         "pdfUrl": "pdfs/unpublished/B330596_Nelson_v_Huhn_unpublished.pdf",
@@ -1232,7 +1232,7 @@
                         }
                         ${episode.textUrl && episode.textUrl !== '#' && episode.textUrl.startsWith('texts/') ? 
                             `<a href="${episode.textUrl}" class="btn btn-secondary" target="_blank">
-                                📄 ${episode.type === 'analysis' ? 'Text' : 'Case Brief'}
+                                📄 ${episode.type === 'analysis' ? 'Text' : (episode.type === 'opinion' ? 'Case Text' : 'Case Brief')}
                             </a>` : 
                             `<button class="btn btn-secondary" disabled style="opacity: 0.5; cursor: not-allowed;">
                                 📄 Brief Coming Soon
