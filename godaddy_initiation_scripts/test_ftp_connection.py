@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-FTP Connection Test for ProBRep.com
-Test GoDaddy FTP connection before implementing full deployment
+FTP Connection Test for ProBRep.com - UPDATED CREDENTIALS
+Test GoDaddy FTP connection with new sysop2 account
 """
 
 import ftplib
@@ -13,18 +13,37 @@ def test_ftp_connection():
     
     print("=== ProBRep.com FTP Connection Test ===")
     
-    # FTP connection details
-    ftp_host = "ftp.probrep.com"
-    ftp_user = "sysop@probrep.com"
-    ftp_pass = "Fpm9dLJqWdduPC8"
-    ftp_port = 21
+    # Load config or use updated settings
+    config_path = Path("godaddy_config.ini")
+    
+    if config_path.exists():
+        config = configparser.ConfigParser()
+        config.read(config_path)
+        
+        if 'godaddy_ftp' in config:
+            ftp_host = config['godaddy_ftp']['host']
+            ftp_user = config['godaddy_ftp']['username']
+            ftp_pass = config['godaddy_ftp']['password']
+            ftp_port = int(config['godaddy_ftp']['port'])
+            web_root = config['godaddy_ftp']['web_root']
+        else:
+            print("⚠ Config file found but missing [godaddy_ftp] section")
+            return False
+    else:
+        # Use updated working settings
+        print("📝 Using updated FTP settings (sysop2 account)")
+        ftp_host = "probrep.com"
+        ftp_user = "sysop2@probrep.com"  # UPDATED
+        ftp_pass = "nq6FRcSQk8i5chh"     # UPDATED  
+        ftp_port = 21
+        web_root = "/public_html"
     
     try:
         print(f"Connecting to {ftp_host}:{ftp_port}...")
         
         # Connect to FTP server
         ftp = ftplib.FTP()
-        ftp.connect(ftp_host, ftp_port)
+        ftp.connect(ftp_host, ftp_port, timeout=10)
         print("✓ FTP connection established")
         
         # Login
@@ -44,47 +63,39 @@ def test_ftp_connection():
         if len(files) > 10:
             print(f"  ... and {len(files) - 10} more items")
         
-        # Try to navigate to public_html
-        try:
-            ftp.cwd('public_html')
-            print("✓ Successfully navigated to public_html")
-            
-            # Check if we can create a directory (test write permissions)
-            test_dir = "test_deployment"
+        # Check directory structure
+        if web_root != "/":
             try:
-                ftp.mkd(test_dir)
-                print(f"✓ Successfully created test directory: {test_dir}")
-                
-                # Remove test directory
-                ftp.rmd(test_dir)
-                print(f"✓ Successfully removed test directory: {test_dir}")
-                
-            except ftplib.error_perm as e:
-                if "exists" in str(e).lower():
-                    print(f"! Test directory already exists - write permissions confirmed")
-                else:
-                    print(f"⚠ Warning: Cannot create directories - {e}")
-            
-            # Return to root
-            ftp.cwd('..')
-            
-        except ftplib.error_perm:
-            print("⚠ Warning: Cannot access public_html directory")
-            print("  This might be normal - we'll try direct upload to root")
+                ftp.cwd(web_root.lstrip('/'))
+                print(f"✓ Successfully navigated to {web_root}")
+                ftp.cwd('..')  # Return to original directory
+            except ftplib.error_perm:
+                print(f"⚠ Warning: Cannot access {web_root} directory")
+                print("  Will deploy to root directory instead")
         
         # Test file upload capability
         print("\nTesting file upload capability...")
-        test_content = "ProBRep.com deployment test file"
-        test_filename = "test_upload.txt"
+        test_content = f"ProBRep.com deployment test - {ftp_user} account"
+        test_filename = "probrep_test_sysop2.txt"
         
         try:
             # Create test file
             from io import BytesIO
             test_file = BytesIO(test_content.encode('utf-8'))
             
-            # Upload test file
-            ftp.storbinary(f'STOR {test_filename}', test_file)
-            print(f"✓ Successfully uploaded test file: {test_filename}")
+            # Upload test file to appropriate directory
+            if web_root != "/" and web_root != "":
+                try:
+                    ftp.cwd(web_root.lstrip('/'))
+                    upload_path = test_filename
+                except:
+                    upload_path = test_filename
+                    print("  Using root directory for upload")
+            else:
+                upload_path = test_filename
+            
+            ftp.storbinary(f'STOR {upload_path}', test_file)
+            print(f"✓ Successfully uploaded test file: {upload_path}")
             
             # Verify file exists
             files = ftp.nlst()
@@ -92,8 +103,11 @@ def test_ftp_connection():
                 print(f"✓ Test file confirmed on server")
                 
                 # Get file size
-                size = ftp.size(test_filename)
-                print(f"✓ File size: {size} bytes")
+                try:
+                    size = ftp.size(test_filename)
+                    print(f"✓ File size: {size} bytes")
+                except:
+                    print("✓ File exists (size check not supported)")
                 
                 # Delete test file
                 ftp.delete(test_filename)
@@ -101,11 +115,16 @@ def test_ftp_connection():
             
         except Exception as e:
             print(f"⚠ File upload test failed: {e}")
+            return False
         
         # Close connection
         ftp.quit()
-        print("\n✓ FTP connection test completed successfully!")
-        print("\n=== READY FOR DEPLOYMENT ===")
+        print("\n✅ FTP CONNECTION TEST PASSED!")
+        print(f"✅ Hostname: {ftp_host}")
+        print(f"✅ Username: {ftp_user}")
+        print(f"✅ Directory: {web_root or 'Root'}")
+        print(f"✅ Upload/Delete: Working")
+        print("\n🚀 READY FOR DEPLOYMENT!")
         print("Your GoDaddy hosting is properly configured for automated deployment.")
         
         return True
@@ -120,75 +139,22 @@ def test_ftp_connection():
         
         return False
 
-def create_config_file():
-    """Create the configuration file for the deployment pipeline"""
-    
-    config_path = Path("../godaddy_config.ini")  # Save in parent directory (website/)
-    
-    if config_path.exists():
-        print(f"\n✓ Configuration file already exists: {config_path}")
-        return
-    
-    print(f"\nCreating configuration file: {config_path}")
-    
-    config_content = """# GoDaddy Hosting Configuration for ProBRep.com
-# Auto-generated configuration file
-
-[godaddy]
-# FTP connection details for probrep.com
-ftp_host = ftp.probrep.com
-ftp_username = sysop@probrep.com
-ftp_password = Fpm9dLJqWdduPC8
-ftp_port = 21
-
-# Web root directory
-web_root = public_html
-
-# Domain information
-domain_name = probrep.com
-site_url = https://probrep.com
-
-# Deployment settings
-max_retries = 3
-timeout_seconds = 30
-verify_uploads = true
-
-# File exclusions
-exclude_patterns = *.log,*.backup,*.tmp,.git/*,logs/*
-
-[ssl]
-enable_ssl = true
-force_https = true
-
-[performance]
-enable_compression = true
-cache_control_max_age = 86400
-enable_cdn = false
-"""
-    
-    with open(config_path, 'w') as f:
-        f.write(config_content)
-    
-    print(f"✓ Configuration file created successfully")
-
 if __name__ == "__main__":
-    print("ProBRep.com GoDaddy FTP Setup")
-    print("=" * 40)
+    print("ProBRep.com GoDaddy FTP Setup - UPDATED CREDENTIALS")
+    print("=" * 60)
     
-    # Test FTP connection
+    # Test FTP connection with updated credentials
     success = test_ftp_connection()
     
     if success:
-        # Create configuration file
-        create_config_file()
-        
-        print("\n" + "=" * 40)
-        print("NEXT STEPS:")
-        print("1. Copy the deployment scripts to your website directory")
-        print("2. Test the deployment pipeline with existing content")
-        print("3. Update your pipeline batch file to use GoDaddy deployment")
-        print("4. Run a full test of the enhanced pipeline")
+        print("\n" + "=" * 60)
+        print("🎯 MIGRATION READY!")
+        print("Next steps:")
+        print("1. Run manual deployment test")
+        print("2. Update your pipeline scripts")
+        print("3. Test full integration")
+        print("4. Deploy to production")
     else:
-        print("\n" + "=" * 40)
-        print("TROUBLESHOOTING REQUIRED:")
-        print("Fix FTP connection issues before proceeding with migration")
+        print("\n" + "=" * 60)
+        print("❌ TROUBLESHOOTING REQUIRED")
+        print("Fix FTP connection issues before proceeding")

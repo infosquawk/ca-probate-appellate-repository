@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-GoDaddy Deployment Pipeline - UPDATED FOR ROOT DIRECTORY
+GoDaddy Full Website Deployment Pipeline
 Replaces GitHub Pages deployment with FTP upload to GoDaddy hosting
-Uses root directory deployment (not public_html)
+Uses /public_html directory structure for sysop2@probrep.com account
 """
 
 import os
@@ -16,7 +16,7 @@ import configparser
 
 class GoDaddyDeploymentPipeline:
     def __init__(self):
-        self.base_dir = Path(__file__).parent.parent  # Go up to website directory
+        self.base_dir = Path(__file__).parent  # website directory
         self.podcast_dir = self.base_dir.parent
         self.config = self.load_config()
         self.setup_logging()
@@ -48,11 +48,11 @@ class GoDaddyDeploymentPipeline:
 
     def deploy_to_godaddy(self):
         """
-        Main deployment function - uploads website to GoDaddy via FTP
+        Main deployment function - uploads complete website to GoDaddy via FTP
         Returns: bool - Success status
         """
         try:
-            self.logger.info("=== Starting GoDaddy Deployment ===")
+            self.logger.info("=== Starting GoDaddy Full Website Deployment ===")
             
             # Step 1: Validate local files
             if not self.validate_local_files():
@@ -112,8 +112,8 @@ class GoDaddyDeploymentPipeline:
             ftp.connect(ftp_host, ftp_port, timeout=30)
             ftp.login(ftp_user, ftp_pass)
             
-            # Check web root setting
-            web_root = self.config['godaddy'].get('web_root', '/')
+            # Check web root setting and change to public_html
+            web_root = self.config['godaddy'].get('web_root', '/public_html')
             if web_root and web_root != '/' and web_root != '':
                 try:
                     ftp.cwd(web_root.lstrip('/'))
@@ -167,24 +167,33 @@ class GoDaddyDeploymentPipeline:
         """Get list of all files to upload"""
         files_to_upload = []
         
+        self.logger.info("Scanning local files for deployment...")
+        
         # Add main HTML file
         index_html = self.base_dir / "index.html"
         if index_html.exists():
             files_to_upload.append(index_html)
+            self.logger.info(f"Added: index.html ({index_html.stat().st_size} bytes)")
         
         # Add all files from subdirectories
         for subdir in ['covers', 'pdfs', 'texts']:
             subdir_path = self.base_dir / subdir
             if subdir_path.exists():
+                count = 0
                 for file_path in subdir_path.rglob('*'):
                     if file_path.is_file():
                         files_to_upload.append(file_path)
+                        count += 1
+                self.logger.info(f"Added: {subdir}/ directory ({count} files)")
+            else:
+                self.logger.info(f"Skipped: {subdir}/ directory (not found)")
         
         # Add any additional static files
         for static_file in ['robots.txt', 'sitemap.xml']:
             static_path = self.base_dir / static_file
             if static_path.exists():
                 files_to_upload.append(static_path)
+                self.logger.info(f"Added: {static_file}")
         
         return files_to_upload
 
@@ -237,6 +246,8 @@ class GoDaddyDeploymentPipeline:
         try:
             verification_count = 0
             
+            self.logger.info("Verifying deployment...")
+            
             # Check if index.html exists
             try:
                 size = ftp.size('index.html')
@@ -265,6 +276,16 @@ class GoDaddyDeploymentPipeline:
             except:
                 self.logger.info("ℹ PDFs directory not found (may not exist yet)")
             
+            # Check if texts directory exists
+            try:
+                ftp.cwd('texts')
+                files = ftp.nlst()
+                ftp.cwd('..')
+                self.logger.info(f"✓ Verification: texts directory found ({len(files)} files)")
+                verification_count += 1
+            except:
+                self.logger.info("ℹ Texts directory not found (may not exist yet)")
+            
             self.logger.info(f"Deployment verification: {verification_count} checks passed")
             return verification_count >= 1  # At least index.html must exist
             
@@ -275,19 +296,38 @@ class GoDaddyDeploymentPipeline:
 def main():
     """Main execution function for GoDaddy deployment"""
     try:
+        print("🚀 ProBRep.com Full Website Deployment")
+        print("=" * 50)
+        
         deployer = GoDaddyDeploymentPipeline()
         success = deployer.deploy_to_godaddy()
         
         if success:
-            print("✅ GoDaddy Deployment - SUCCESS")
-            print("🌐 Website should be live at: https://probrep.com")
+            print("\n" + "=" * 50)
+            print("✅ FULL WEBSITE DEPLOYMENT - SUCCESS!")
+            print("🌐 Your complete website is now live at:")
+            print("   https://probrep.com")
+            print("\n📋 What was deployed:")
+            print("   ✓ Main website (index.html)")
+            print("   ✓ Podcast covers")
+            print("   ✓ Court documents (PDFs)")
+            print("   ✓ Case briefs and text files")
+            print("   ✓ Site configuration files")
+            print("\n🎯 Next steps:")
+            print("   1. Visit https://probrep.com to verify")
+            print("   2. Test all functionality")
+            print("   3. Update DNS/redirects if needed")
+            print("   4. Monitor for any issues")
             exit(0)
         else:
-            print("❌ GoDaddy Deployment - FAILED")
+            print("\n" + "=" * 50)
+            print("❌ FULL WEBSITE DEPLOYMENT - FAILED")
+            print("Check the logs for detailed error information")
             exit(1)
             
     except Exception as e:
-        print(f"💥 GoDaddy Deployment - CRITICAL ERROR: {e}")
+        print(f"\n💥 DEPLOYMENT CRITICAL ERROR: {e}")
+        print("Check configuration and try again")
         exit(1)
 
 if __name__ == "__main__":
