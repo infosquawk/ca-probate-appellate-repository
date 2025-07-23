@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>California Probate Code Appellate Case Information Repository</title>
+    <meta name="description" content="Comprehensive repository of California probate law appellate decisions, case briefs, and legal analysis for legal professionals and researchers.">
+    <meta name="keywords" content="California probate law, appellate cases, case briefs, legal analysis, court decisions">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;800&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Merriweather', serif;
+            line-height: 1.6;
+            color: #2f2f2f;
+            background: linear-gradient(135deg, #2f4f4f 0%, #3a5f5f 100%);
+            min-height: 100vh;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 1px 1px, rgba(243, 227, 195, 0.15) 1px, transparent 0);
+            background-size: 20px 20px;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(47, 79, 79, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1.5rem 0;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            border-bottom: 3px solid #c2a86f;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            color: #f3e3c3;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .logo-subtitle {
+            color: #c2a86f;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 0.3rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #f3e3c3;
+            text-decoration: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            background: rgba(243, 227, 195, 0.1);
+            border: 2px solid #c2a86f;
+            font-family: 'League Spartan', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+        }
+
+        nav a:hover, nav a.active {
+            background: #c2a86f;
+            color: #2f4f4f;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(194, 168, 111, 0.4);
+        }
+
+        main {
+            background: #f3e3c3;
+            margin: 2rem 0;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            border: 3px solid #c2a86f;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #5c1f1f 0%, #7a2929 100%);
+            color: #f3e3c3;
+            padding: 4rem 2rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                radial-gradient(circle at 2px 2px, rgba(243, 227, 195, 0.1) 2px, transparent 0);
+            background-size: 30px 30px;
+        }
+
+        .hero-title {
+            font-family: 'League Spartan', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 3rem;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+            position: relative;
+            z-index: 1;
+            color: #f3e3c3;
+        }
+
+        .cover-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cover-item {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            border: 3px solid #c2a86f;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            background: #ffffff;
+        }
+
+        .cover-item:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+            border-color: #f3e3c3;
+        }
+
+        .cover-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: all 0.4s ease;
+        }
+
+        .cover-item:hover .cover-image {
+            filter: brightness(0.8);
+        }
+
+        .cover-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(47, 79, 79, 0.95));
+            color: #f3e3c3;
+            padding: 2rem 1.5rem 1.5rem 1.5rem;
+            transform: translateY(100%);
+            transition: all 0.4s ease;
+        }
+
+        .cover-item:hover .cover-overlay {
+            transform: translateY(0);
+        }
+
+        .cover-title {
+            font-family: 'League Spartan', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+            color: #f3e3c3;
+        }
+
+        .cover-description {
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            opacity: 0.9;
+            line-height: 1.4;
+        }
+
+        .cover-stats {
+            font-family: 'League Spartan', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #c2a86f;
+            border: 1px solid #c2a86f;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            display: inline-block;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            padding: 3rem 2rem;
+            background: linear-gradient(135deg, #f3e3c3 0%, #f8f0d6 100%);
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 2rem 1.5rem;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(47, 79, 79, 0.15);
+            transition: transform 0.3s ease;
+            border: 2px solid #c2a86f;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #2f4f4f 0%, #c2a86f  100%);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(47, 79, 79, 0.25);
+        }
+
+        .stat-number {
+            font-family: 'League Spartan', sans-serif;
+            font-size: 3rem;
+            font-weight: 800;
+            color: #2f4f4f;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: #5c1f1f;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .content-section {
+            padding: 3rem 2rem;
+            background: #f3e3c3;
+        }
+
+        .controls {
+            margin-bottom: 2.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 300px;
+            padding: 1rem;
+            border: 3px solid #c2a86f;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: 'Merriweather', serif;
+            transition: border-color 0.3s ease;
+            background: #ffffff;
+            color: #2f4f4f;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: #2f4f4f;
+            box-shadow: 0 0 15px rgba(47, 79, 79, 0.3);
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 0.8rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 0.8rem 1.5rem;
+            border: 3px solid #2f4f4f;
+            background: #f3e3c3;
+            color: #2f4f4f;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'League Spartan', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: #2f4f4f;
+            color: #f3e3c3;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(47, 79, 79, 0.4);
+        }
+
+        .episode-grid {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .episode-card {
+            background: #ffffff;
+            border: 3px solid #c2a86f;
+            border-radius: 12px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 20px rgba(47, 79, 79, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .episode-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, #2f4f4f 0%, #c2a86f 50%, #5c1f1f 100%);
+        }
+
+        .episode-card:hover {
+            box-shadow: 0 12px 30px rgba(47, 79, 79, 0.2);
+            transform: translateY(-5px);
+            border-color: #2f4f4f;
+        }
+
+        .episode-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .episode-title {
+            font-family: 'League Spartan', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #2f4f4f;
+            margin-bottom: 0.8rem;
+        }
+
+        .episode-meta {
+            display: flex;
+            gap: 1.2rem;
+            flex-wrap: wrap;
+            font-size: 0.9rem;
+            color: #5c1f1f;
+            font-weight: 400;
+        }
+
+        .episode-type {
+            background: #f3e3c3;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 2px solid;
+        }
+
+        .episode-type.opinion {
+            background: #e8f4f0;
+            color: #2f4f4f;
+            border-color: #2f4f4f;
+        }
+
+        .episode-type.brief {
+            background: #f0e8f4;
+            color: #5c1f1f;
+            border-color: #5c1f1f;
+        }
+
+        .episode-type.analysis {
+            background: #f4f0e8;
+            color: #c2a86f;
+            border-color: #c2a86f;
+        }
+
+        .episode-description {
+            margin: 1.5rem 0;
+            line-height: 1.7;
+            color: #3a3a3a;
+            font-weight: 300;
+        }
+
+        .episode-actions {
+            display: flex;
+            gap: 1.2rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+
+        .btn {
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            border: 2px solid;
+        }
+
+        .btn-primary {
+            background: #2f4f4f;
+            color: #f3e3c3;
+            border-color: #2f4f4f;
+        }
+
+        .btn-primary:hover {
+            background: #c2a86f;
+            color: #2f4f4f;
+            border-color: #c2a86f;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(194, 168, 111, 0.4);
+        }
+
+        .btn-secondary {
+            background: #5c1f1f;
+            color: #f3e3c3;
+            border-color: #5c1f1f;
+        }
+
+        .btn-secondary:hover {
+            background: #c2a86f;
+            color: #2f4f4f;
+            border-color: #c2a86f;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(194, 168, 111, 0.4);
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 4rem;
+            color: #5c1f1f;
+            font-family: 'League Spartan', sans-serif;
+            font-weight: 600;
+        }
+
+        .footer {
+            background: rgba(47, 79, 79, 0.95);
+            backdrop-filter: blur(10px);
+            color: #f3e3c3;
+            text-align: center;
+            padding: 3rem 0;
+            margin-top: 2rem;
+            border-top: 3px solid #c2a86f;
+        }
+
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .footer h3 {
+            margin-bottom: 1.5rem;
+            color: #f3e3c3;
+            font-family: 'League Spartan', sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .footer p {
+            opacity: 0.9;
+            line-height: 1.7;
+            font-weight: 300;
+        }
+
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            .hero-title {
+                font-size: 1.8rem;
+                letter-spacing: 2px;
+                margin-bottom: 2rem;
+            }
+
+            .cover-gallery {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+                max-width: 350px;
+            }
+
+            .cover-item {
+                min-height: 200px;
+                border-width: 2px;
+            }
+
+            .cover-item:hover {
+                transform: translateY(-5px) scale(1.01);
+            }
+
+            .cover-overlay {
+                padding: 1.5rem 1rem 1rem 1rem;
+            }
+
+            .cover-title {
+                font-size: 1.1rem;
+                letter-spacing: 1px;
+            }
+
+            .cover-description {
+                font-size: 0.85rem;
+                margin-bottom: 0.8rem;
+            }
+
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .search-box {
+                min-width: auto;
+            }
+
+            .filter-buttons {
+                justify-content: center;
+            }
+
+            nav ul {
+                justify-content: center;
+            }
+
+            .logo {
+                font-size: 1.5rem;
+                text-align: center;
+            }
+        }
+
+        /* Loading animation */
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3e3c3;
+            border-top: 3px solid #2f4f4f;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Scroll animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.6s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div>California Probate Code</div>
+                    <div class="logo-subtitle">Appellate Case Information Repository</div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="nav-link active" data-filter="all">All Cases</a></li>
+                        <li><a href="#" class="nav-link" data-filter="opinion">Appellate Opinions</a></li>
+                        <li><a href="#" class="nav-link" data-filter="brief">Case Briefs</a></li>
+                        <li><a href="#" class="nav-link" data-filter="analysis">Legal Analysis</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <main>
+            <section class="hero">
+            <h1 class="hero-title">California Probate Code Appellate Case Information Repository</h1>
+            <div class="cover-gallery">
+                    <div class="cover-item" data-filter="opinion">
+                            <img src="covers/cover_opinions.png" alt="Appellate Opinions" class="cover-image">
+                            <div class="cover-overlay">
+                                <h3 class="cover-title">Appellate Opinions</h3>
+                                <p class="cover-description">Complete court decisions with professional audio narration</p>
+                                <div class="cover-stats">5 Episodes</div>
+                            </div>
+                        </div>
+                        <div class="cover-item" data-filter="brief">
+                            <img src="covers/cover_briefs.png" alt="Case Briefs" class="cover-image">
+                            <div class="cover-overlay">
+                                <h3 class="cover-title">Case Briefs</h3>
+                                <p class="cover-description">AI-generated legal analysis with practical guidance</p>
+                                <div class="cover-stats">4 Episodes</div>
+                            </div>
+                        </div>
+                        <div class="cover-item" data-filter="analysis">
+                            <img src="covers/cover_special.png" alt="Legal Analysis" class="cover-image">
+                            <div class="cover-overlay">
+                                <h3 class="cover-title">Legal Analysis</h3>
+                                <p class="cover-description">Historical examination and scholarly commentary</p>
+                                <div class="cover-stats">1 Episode</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            <section class="stats">
+                <div class="stat-card fade-in">
+                    <div class="stat-number" id="totalEpisodes">16+</div>
+                    <div class="stat-label">Total Episodes</div>
+                </div>
+                <div class="stat-card fade-in">
+                    <div class="stat-number" id="totalResources">25+</div>
+                    <div class="stat-label">Legal Resources</div>
+                </div>
+                <div class="stat-card fade-in">
+                    <div class="stat-number" id="originalPdfs">5</div>
+                    <div class="stat-label">Original PDFs</div>
+                </div>
+                <div class="stat-card fade-in">
+                    <div class="stat-number" id="courtOpinions">7</div>
+                    <div class="stat-label">Court Opinions</div>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <div class="controls">
+                    <input type="text" class="search-box" id="searchBox" placeholder="Search cases, courts, topics, or case numbers...">
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All Cases</button>
+                        <button class="filter-btn" data-filter="opinion">Opinions</button>
+                        <button class="filter-btn" data-filter="brief">Briefs</button>
+                        <button class="filter-btn" data-filter="analysis">Analysis</button>
+                    </div>
+                </div>
+
+                <div class="episode-grid" id="episodeGrid">
+                    <!-- Episodes will be populated by JavaScript -->
+                </div>
+
+                <div class="no-results" id="noResults" style="display: none;">
+                    <h3>No cases found</h3>
+                    <p>Try adjusting your search terms or filters.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>About This Repository</h3>
+
+            <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.7;">
+                © 2025 California Probate Code Appellate Case Information Repository | For Educational and Professional Use
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // FIXED episode database with working Podbean URLs
+        const episodes = [
+        {
+                "id": 1,
+                "type": "brief",
+                "title": "Brief: Estate of Eden Ahbez",
+                "court": "California Appellate Court",
+                "date": "2025-07-17",
+                "caseNumber": "D085918",
+                "description": "Here is a professional 2-3 sentence description suitable for podcast and website listings:
+
+In this California Appellate Court case, the Estate of Eden Ahbez presents a key issue in trust administration and estate planning: whether an individual without a direct familial or pecuniary interest can bring a petition under Section 850 of the California Probate Code. The court ultimately ruled in favor of Debra Guess, finding that she satisfied the requirements of Section 850 and had standing to b...",
+                "audioUrl": "https://probate-cal.podbean.com/e/case-brief-unknown-case-d085918/",
+                "textUrl": "#",
+                "pdfUrl": "pdfs/unpublished/D085918_Estate_of_EDEN_AHBEZ_unpublished.pdf",
+                "duration": "7:59",
+                "keywords": [
+                        "case brief",
+                        "probate",
+                        "California",
+                        "analysis",
+                        "d085918"
+                ],
+                "source": "case_brief",
+                "originalTextUrl": "texts/D085918_unpublished.txt"
+        },
+        {
+                "id": 2,
+                "type": "opinion",
+                "title": "Case D085918 - Estate of EDEN AHBEZ",
+                "court": "California Appellate Court",
+                "date": "2025-07-17",
+                "caseNumber": "D085918",
+                "description": "Comprehensive review of Estate of EDEN AHBEZ, analyzing probate law principles and estate administration procedures. This California appellate court opinion addresses important questions in estate litigation and probate administration.",
+                "audioUrl": "https://probate-cal.podbean.com/e/estate-of-eden-ahbez-unknown/",
+                "textUrl": "#",
+                "pdfUrl": "pdfs/unpublished/D085918_Estate_of_EDEN_AHBEZ_unpublished.pdf",
+                "duration": "56:49",
+                "keywords": [
+                        "probate",
+                        "California",
+                        "appellate",
+                        "d085918"
+                ],
+                "source": "podcast"
+        },
+        {
+                "id": 3,
+                "type": "brief",
+                "title": "Brief: In re Dominic H",
+                "court": "California Appellate Court",
+                "date": "2025-07-16",
+                "caseNumber": "B341350",
+                "description": "Here is a professional 2-3 sentence description suitable for podcast and website listings:
+
+In this California Appellate Court case, In re Dominic H., the court grapples with the complex issues surrounding parental rights and guardianship. The case centers on whether the trial court erred in denying Bernardino's petition for presumed father status under Adoption of Kelsey S., and whether the parties seeking termination of parental rights complied with the Indian Child Welfare Act (ICWA) and r...",
+                "audioUrl": "https://probate-cal.podbean.com/e/case-brief-unknown-case-b341350/",
+                "textUrl": "texts/B341350_(Case_Brief)__(unpublished).txt",
+                "pdfUrl": "pdfs/unpublished/B341350_a_Minor_ISMAEL_H_et_al_v_BERNARDINO_G_unpublished.pdf",
+                "duration": "8:03",
+                "keywords": [
+                        "case brief",
+                        "probate",
+                        "California",
+                        "analysis",
+                        "b341350"
+                ],
+                "source": "case_brief",
+                "originalTextUrl": "texts/B341350_unpublished.txt"
+        },
+        {
+                "id": 4,
+                "type": "opinion",
+                "title": "Case B341350 - In re Dominic H",
+                "court": "California Appellate Court",
+                "date": "2025-07-16",
+                "caseNumber": "B341350",
+                "description": "Professional legal analysis of In re Dominic H, a California appellate court decision examining key principles of probate and family law. This case addresses important legal issues with practical implications for legal practitioners.",
+                "audioUrl": "https://probate-cal.podbean.com/e/in-re-dominic-h-unknown-1752688962/",
+                "textUrl": "#",
+                "pdfUrl": "pdfs/unpublished/B341350_a_Minor_ISMAEL_H_et_al_v_BERNARDINO_G_unpublished.pdf",
+                "duration": "1:21:42",
+                "keywords": [
+                        "probate",
+                        "California",
+                        "appellate",
+                        "b341350"
+                ],
+                "source": "podcast"
+        },
+        {
+                "id": 5,
+                "type": "brief",
+                "title": "Brief: Conservatorship of the Person of C",
+                "court": "California Appellate Court",
+                "date": "2025-07-14",
+                "caseNumber": "C102321",
+                "description": "Here is a professional 2-3 sentence description suitable for podcast and website listings:
+
+In this California Appellate Court case, the court grappled with the issue of ensuring knowing and voluntary waivers of jury trials in Lanterman-Petris-Short (LPS) Act conservatorship proceedings. The case centered around C.S., a proposed conservatee alleged to be gravely disabled due to mental illness, whose right to a jury trial was at stake. The court ultimately held that the trial court's failure t...",
+                "audioUrl": "https://probate-cal.podbean.com/e/case-brief-unknown-case-c102321/",
+                "textUrl": "texts/C102321_(Case_Brief)__(unpublished).txt",
+                "pdfUrl": "pdfs/unpublished/C102321_Conservatorship_of_the_Person_of_C_unpublished.pdf",
+                "duration": "7:04",
+                "keywords": [
+                        "case brief",
+                        "probate",
+                        "California",
+                        "analysis",
+                        "c102321"
+                ],
+                "source": "case_brief",
+                "originalTextUrl": "texts/C102321_unpublished.txt"
+        },
+        {
+                "id": 6,
+                "type": "opinion",
+                "title": "Case C102321 - Conservatorship of the Person of C",
+                "court": "California Appellate Court",
+                "date": "2025-07-14",
+                "caseNumber": "C102321",
+                "description": "Professional analysis of Conservatorship of the Person of C, examining the legal standards and procedural requirements for establishing conservatorship under California law. This appellate court decision addresses key issues in conservatorship proceedings and their impact on individual rights.",
+                "audioUrl": "https://probate-cal.podbean.com/e/case-c102321-unknown-1752538567/",
+                "textUrl": "#",
+                "pdfUrl": "pdfs/unpublished/C102321_Conservatorship_of_the_Person_of_C_unpublished.pdf",
+                "duration": "30:24",
+                "keywords": [
+                        "probate",
+                        "California",
+                        "appellate",
+                        "c102321"
+                ],
+                "source": "podcast"
+        },
+        {
+                "id": 7,
+                "type": "analysis",
+                "title": "Analysis: California's Heritage Of Estates",
+                "court": "Legal Analysis Special Edition",
+                "date": "2025-07-13",
+                "caseNumber": "Analysis-14",
+                "description": "Special legal analysis and commentary on California probate law matters. In-depth examination with practical implications for legal practitioners.",
+                "audioUrl": "https://www.podbean.com/ew/pb-thdza-1904721",
+                "textUrl": "texts/2025-07-13_Californias_Heritage_of_Estates_analysis.txt",
+                "pdfUrl": "",
+                "duration": "Audio",
+                "keywords": [
+                        "legal analysis",
+                        "commentary",
+                        "special edition",
+                        "probate law"
+                ],
+                "source": "special_edition"
+        },
+        {
+                "id": 8,
+                "type": "brief",
+                "title": "Brief: Layla Boyajian, Deceased. Robert Boyajian, As Special Administrator, Etc., Appellant, v. Robert Boyajian, Objector and Appellant. G",
+                "court": "California Appellate Court",
+                "date": "2025-07-12",
+                "caseNumber": "G063155",
+                "description": "Here is a professional 2-3 sentence description suitable for podcast and website listings:
+
+In the California Court of Appeal case, Boyajian v. [Unknown], the court addressed two key legal issues: whether a stand-alone revocation document constitutes a subsequent will, and whether undue influence was exercised in the creation of a prior will. The court ultimately held that physical alteration is required to effect a revocation by cancellation, and that the proponent failed to present sufficie...",
+                "audioUrl": "https://probate-cal.podbean.com/e/case-brief-estate-of-layla-boyajian-g063155/",
+                "textUrl": "texts/G063155_(Case_Brief)_Estate_of_LAYLA_BOYAJIAN_(published).txt",
+                "pdfUrl": "pdfs/published/G063155_Estate_of_LAYLA_BOYAJIAN_published.pdf",
+                "duration": "6:40",
+                "keywords": [
+                        "case brief",
+                        "probate",
+                        "California",
+                        "analysis",
+                        "g063155"
+                ],
+                "source": "case_brief",
+                "originalTextUrl": "texts/G063155_Estate_of_LAYLA_BOYAJIAN_published.txt"
+        },
+        {
+                "id": 9,
+                "type": "brief",
+                "title": "Brief: Conservatorship of Julie C",
+                "court": "California Appellate Court",
+                "date": "2025-07-12",
+                "caseNumber": "B341750",
+                "description": "AI-generated case brief analyzing Conservatorship of Julie C. This comprehensive analysis examines the legal issues, court reasoning, and practical implications of this California appellate court decision, presented in accessible language for legal professionals.",
+                "audioUrl": "https://probate-cal.podbean.com/e/case-brief-conservatorship-of-julie-c-b341750/",
+                "textUrl": "#",
+                "pdfUrl": "pdfs/unpublished/B341750_Conservatorship_of_Julie_C_unpublished.pdf",
+                "duration": "6:19",
+                "keywords": [
+                        "case brief",
+                        "probate",
+                        "California",
+                        "analysis",
+                        "b341750"
+                ],
+                "source": "case_brief",
+                "originalTextUrl": "texts/B341750_Conservatorship_of_Julie_C_unpublished.txt"
+        },
+        {
+                "id": 10,
+                "type": "brief",
+                "title": "Brief: Conservatorship of ANNE S",
+                "court": "California Appellate Court",
+                "date": "2025-07-12",
+                "caseNumber": "B333052",
+                "description": "Here is a professional 2-3 sentence description suitable for podcast and website listings:
+
+In the Conservatorship of Anne S., the California Court of Appeal addresses the standing requirements for petitioning for conservatorship under Probate Code section 1820. The court holds that Marc B. Hankin, a neighbor of Anne S., lacks standing to bring a petition for conservatorship due to his lack of interest or connection to Anne's well-being. This case serves as a reminder to practitioners of the ...",
+                "audioUrl": "https://probate-cal.podbean.com/e/case-brief-conservatorship-of-anne-s-b333052/",
+                "textUrl": "texts/B333052_(Case_Brief)_Conservatorship_of_ANNE_S_(published).txt",
+                "pdfUrl": "pdfs/published/B333052_Conservatorship_of_ANNE_S_published.pdf",
+                "duration": "6:42",
+                "keywords": [
+                        "case brief",
+                        "probate",
+                        "California",
+                        "analysis",
+                        "b333052"
+                ],
+                "source": "case_brief",
+                "originalTextUrl": "texts/B333052_Conservatorship_of_ANNE_S_published.txt"
+        },
+        {
+                "id": 11,
+                "type": "brief",
+                "title": "Brief: Nelson v. Huhn",
+                "court": "California Appellate Court",
+                "date": "2025-07-12",
+                "caseNumber": "B330596",
+                "description": "Here is a professional 2-3 sentence description suitable for podcast and website listings:
+
+In the California Appellate Court case of Huhn v. Nelson, the court addressed whether a settlement term sheet constitutes an agreement to arbitrate and whether an appraisal report can be confirmed as an arbitration award. The court held that the settlement term sheet does not qualify as an arbitration agreement, but rather only provides for a binding valuation. This decision highlights the importance o...",
+                "audioUrl": "https://probate-cal.podbean.com/e/case-brief-nelson-v-huhn-b330596/",
+                "textUrl": "texts/B330596_(Case_Brief)_Nelson_v_Huhn_(unpublished).txt",
+                "pdfUrl": "pdfs/unpublished/B330596_Nelson_v_Huhn_unpublished.pdf",
+                "duration": "6:52",
+                "keywords": [
+                        "case brief",
+                        "probate",
+                        "California",
+                        "analysis",
+                        "b330596"
+                ],
+                "source": "case_brief",
+                "originalTextUrl": "texts/B330596_Trust_v_Huhn_unpublished.txt"
+        },
+        {
+                "id": 12,
+                "type": "opinion",
+                "title": "Case B333052 - Conservatorship of ANNE S",
+                "court": "California Appellate Court",
+                "date": "2025-07-10",
+                "caseNumber": "B333052",
+                "description": "Professional analysis of Conservatorship of ANNE S, examining the legal standards and procedural requirements for establishing conservatorship under California law. This appellate court decision addresses key issues in conservatorship proceedings and their impact on individual rights.",
+                "audioUrl": "https://probate-cal.podbean.com/e/case-b333052-unknown-1752203550/",
+                "textUrl": "#",
+                "pdfUrl": "pdfs/published/B333052_Conservatorship_of_ANNE_S_published.pdf",
+                "duration": "1:01:26",
+                "keywords": [
+                        "probate",
+                        "California",
+                        "appellate",
+                        "b333052"
+                ],
+                "source": "podcast"
+        },
+        {
+                "id": 13,
+                "type": "opinion",
+                "title": "Case S282314 - In re Discipline",
+                "court": "California Appellate Court",
+                "date": "2025-07-07",
+                "caseNumber": "S282314",
+                "description": "Professional legal analysis of In re Discipline, a California appellate court decision examining key principles of probate and family law. This case addresses important legal issues with practical implications for legal practitioners.",
+                "audioUrl": "#",
+                "textUrl": "#",
+                "pdfUrl": "pdfs/published/S282314_In_re_Discipline_published.pdf",
+                "duration": "2:37:13",
+                "keywords": [
+                        "probate",
+                        "California",
+                        "appellate",
+                        "s282314"
+                ],
+                "source": "podcast"
+        },
+        {
+                "id": 14,
+                "type": "opinion",
+                "title": "Case G063155 - Estate of LAYLA BOYAJIAN",
+                "court": "California Appellate Court",
+                "date": "2025-07-07",
+                "caseNumber": "G063155",
+                "description": "Comprehensive review of Estate of LAYLA BOYAJIAN, analyzing probate law principles and estate administration procedures. This California appellate court opinion addresses important questions in estate litigation and probate administration.",
+                "audioUrl": "#",
+                "textUrl": "#",
+                "pdfUrl": "pdfs/published/G063155_Estate_of_LAYLA_BOYAJIAN_published.pdf",
+                "duration": "1:02:26",
+                "keywords": [
+                        "probate",
+                        "California",
+                        "appellate",
+                        "g063155"
+                ],
+                "source": "podcast"
+        },
+        {
+                "id": 15,
+                "type": "opinion",
+                "title": "Case B341750 - Conservatorship of Julie C",
+                "court": "California Appellate Court",
+                "date": "2025-07-07",
+                "caseNumber": "B341750",
+                "description": "Professional analysis of Conservatorship of Julie C, examining the legal standards and procedural requirements for establishing conservatorship under California law. This appellate court decision addresses key issues in conservatorship proceedings and their impact on individual rights.",
+                "audioUrl": "#",
+                "textUrl": "#",
+                "pdfUrl": "pdfs/unpublished/B341750_Conservatorship_of_Julie_C_unpublished.pdf",
+                "duration": "47:45",
+                "keywords": [
+                        "probate",
+                        "California",
+                        "appellate",
+                        "b341750"
+                ],
+                "source": "podcast"
+        },
+        {
+                "id": 16,
+                "type": "opinion",
+                "title": "Case B330596 - Nelson v Huhn",
+                "court": "California Appellate Court",
+                "date": "2025-07-07",
+                "caseNumber": "B330596",
+                "description": "Professional legal analysis of Nelson v Huhn, a California appellate court decision examining key principles of probate and family law. This case addresses important legal issues with practical implications for legal practitioners.",
+                "audioUrl": "#",
+                "textUrl": "#",
+                "pdfUrl": "pdfs/unpublished/B330596_Nelson_v_Huhn_unpublished.pdf",
+                "duration": "1:55:08",
+                "keywords": [
+                        "probate",
+                        "California",
+                        "appellate",
+                        "b330596"
+                ],
+                "source": "podcast"
+        }
+];
+
+        // DOM elements
+        const searchBox = document.getElementById('searchBox');
+        const episodeGrid = document.getElementById('episodeGrid');
+        const noResults = document.getElementById('noResults');
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        // State
+        let currentFilter = 'all';
+        let currentSearch = '';
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            updateStats();
+            renderEpisodes();
+            
+            // Add event listeners
+            searchBox.addEventListener('input', handleSearch);
+            filterButtons.forEach(btn => btn.addEventListener('click', handleFilter));
+            navLinks.forEach(link => link.addEventListener('click', handleNavigation));
+            
+            // Add cover gallery click handlers
+            const coverItems = document.querySelectorAll('.cover-item');
+            coverItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const filter = this.dataset.filter;
+                    handleCoverClick(filter);
+                });
+            });
+            
+            // Add scroll animations
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animationDelay = '0.1s';
+                        entry.target.classList.add('fade-in');
+                    }
+                });
+            });
+            
+            document.querySelectorAll('.stat-card').forEach(card => {
+                observer.observe(card);
+            });
+        });
+
+        function updateStats() {
+            // Statistics are now hardcoded in HTML to reflect comprehensive resources
+        }
+
+        function handleSearch(e) {
+            currentSearch = e.target.value.toLowerCase();
+            renderEpisodes();
+        }
+
+        function handleFilter(e) {
+            const filter = e.target.dataset.filter;
+            currentFilter = filter;
+            
+            // Update button states
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            e.target.classList.add('active');
+            
+            renderEpisodes();
+        }
+
+        function handleNavigation(e) {
+            e.preventDefault();
+            const filter = e.target.dataset.filter;
+            currentFilter = filter;
+            
+            // Update nav states
+            navLinks.forEach(link => link.classList.remove('active'));
+            e.target.classList.add('active');
+            
+            // Update filter buttons
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            const matchingBtn = document.querySelector(`.filter-btn[data-filter="${filter}"]`);
+            if (matchingBtn) matchingBtn.classList.add('active');
+            
+            renderEpisodes();
+        }
+
+        function handleCoverClick(filter) {
+            currentFilter = filter;
+            
+            // Update nav states
+            navLinks.forEach(link => link.classList.remove('active'));
+            const matchingNavLink = document.querySelector(`.nav-link[data-filter="${filter}"]`);
+            if (matchingNavLink) matchingNavLink.classList.add('active');
+            
+            // Update filter buttons
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            const matchingBtn = document.querySelector(`.filter-btn[data-filter="${filter}"]`);
+            if (matchingBtn) matchingBtn.classList.add('active');
+            
+            // Scroll to content section
+            const contentSection = document.querySelector('.content-section');
+            if (contentSection) {
+                contentSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+            
+            renderEpisodes();
+        }
+
+        function renderEpisodes() {
+            const filteredEpisodes = episodes.filter(episode => {
+                const matchesFilter = currentFilter === 'all' || episode.type === currentFilter;
+                const matchesSearch = currentSearch === '' || 
+                    episode.title.toLowerCase().includes(currentSearch) ||
+                    episode.court.toLowerCase().includes(currentSearch) ||
+                    episode.description.toLowerCase().includes(currentSearch) ||
+                    episode.caseNumber.toLowerCase().includes(currentSearch) ||
+                    episode.keywords.some(keyword => keyword.toLowerCase().includes(currentSearch));
+                
+                return matchesFilter && matchesSearch;
+            });
+
+            if (filteredEpisodes.length === 0) {
+                episodeGrid.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+
+            episodeGrid.style.display = 'grid';
+            noResults.style.display = 'none';
+
+            episodeGrid.innerHTML = filteredEpisodes.map(episode => `
+                <div class="episode-card fade-in">
+                    <div class="episode-header">
+                        <div>
+                            <div class="episode-title">${episode.title}</div>
+                            <div class="episode-meta">
+                                <span>${episode.court}</span>
+                                <span>${new Date(episode.date).toLocaleDateString()}</span>
+                                <span>${episode.caseNumber}</span>
+                                <span>${episode.duration}</span>
+                            </div>
+                        </div>
+                        <div class="episode-type ${episode.type}">${episode.type}</div>
+                    </div>
+                    <div class="episode-description">${episode.description}</div>
+                    <div class="episode-actions">
+                        ${episode.audioUrl && episode.audioUrl !== '#' && episode.audioUrl.startsWith('http') ? 
+                            `<a href="${episode.audioUrl}" class="btn btn-primary" target="_blank">
+                                🎧 Listen Now
+                            </a>` : 
+                            `<button class="btn btn-primary" disabled style="opacity: 0.5; cursor: not-allowed;">
+                                🎧 Audio Coming Soon
+                            </button>`
+                        }
+                        ${episode.textUrl && episode.textUrl !== '#' && episode.textUrl.startsWith('texts/') ? 
+                            `<a href="${episode.textUrl}" class="btn btn-secondary" target="_blank">
+                                📄 ${episode.type === 'analysis' ? 'Text' : (episode.type === 'opinion' ? 'Case Text' : 'Case Brief')}
+                            </a>` : 
+                            `<button class="btn btn-secondary" disabled style="opacity: 0.5; cursor: not-allowed;">
+                                📄 Brief Coming Soon
+                            </button>`
+                        }
+                        ${episode.pdfUrl && episode.pdfUrl !== '' ? 
+                            `<a href="${episode.pdfUrl}" class="btn btn-secondary" target="_blank" style="background: #c2a86f; color: #2f4f4f; border-color: #c2a86f;">
+                                📋 Original PDF
+                            </a>` : ''
+                        }
+                        ${episode.originalTextUrl && episode.originalTextUrl !== '' ? 
+                            `<a href="${episode.originalTextUrl}" class="btn btn-secondary" target="_blank" style="background: #5c1f1f; color: #f3e3c3; border-color: #5c1f1f;">
+                                📄 Court Opinion Text
+                            </a>` : ''
+                        }
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Add smooth scrolling for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
