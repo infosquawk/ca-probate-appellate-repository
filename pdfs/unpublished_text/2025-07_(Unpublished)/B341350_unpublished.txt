@@ -1,0 +1,749 @@
+ 
+ 
+Filed 7/15/25  In re Dominic H. CA2/7 
+NOT TO BE PUBLISHED IN THE OFFICIAL REPORTS 
+California Rules of Court, rule 8.1115(a), prohibits courts and parties from citing or relying on opinions 
+not certified for publication or ordered published, except as specified by rule 8.1115(b).  This opinion 
+has not been certified for publication or ordered published for purposes of rule 8.1115. 
+IN THE COURT OF APPEAL OF THE STATE OF CALIFORNIA 
+ 
+SECOND APPELLATE DISTRICT 
+ 
+DIVISION SEVEN 
+ 
+In re DOMINIC H., a Minor. 
+ISMAEL H. et al., 
+ 
+Petitioners and Respondents, 
+ 
+v. 
+ 
+BERNARDINO G., 
+ 
+Objector and Appellant. 
+B341350 
+ 
+(Los Angeles County Super.  
+Ct. No. 19CCAD02507) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APPEAL from a judgment of the Superior Court of 
+Los Angeles County, Nichelle L. Blackwell, Juvenile Court 
+Referee.  Conditionally reversed and remanded with directions. 
+Christopher Blake, under appointment by the Court of 
+Appeal, for Objector and Appellant. 
+Leslie A. Barry, under appointment by the Court of Appeal, 
+for Petitioner and Respondent Ismael H. 
+Janette Freeman Cochran, under appointment by the Court 
+of Appeal, for Petitioner and Respondent Marie H. 
+Suzanne Davidson, under appointment by the Court of 
+Appeal, for Respondent Dominic H., a Minor. 
+______________________ 
+
+ 
+ 
+2 
+Bernardino G. appeals from a judgment after a court trial 
+that terminated his parental rights to his biological son, 
+Dominic H., under Family Code sections 7664 and 7822.1  
+Bernardino argues the trial court erred in denying him presumed 
+father status under Adoption of Kelsey S. (1992) 1 Cal.4th 816 
+(Kelsey S.) before ordering that his consent to the child’s adoption 
+was not necessary.  (See § 7664, subd. (c).)  Bernardino also 
+contends, and respondents concede, the court and parties seeking 
+termination of his parental rights failed to comply with the 
+inquiry and notice requirements of the Indian Child Welfare Act 
+(ICWA), 25 U.S.C. § 1901 et seq., and related state law.  We 
+conditionally reverse and remand for full ICWA compliance but 
+otherwise reject Bernardino’s challenges to the judgment. 
+FACTUAL AND PROCEDURAL BACKGROUND 
+A. 
+The Parties 
+Dominic was born in San Joaquin County in November 
+2014.  His biological mother is Brittany T., who is not a party to 
+this appeal.  Dominic’s biological father is appellant Bernardino.  
+After Dominic’s birth, Brittany signed a declaration of 
+paternity that listed Ismael H., not Bernardino, as Dominic’s 
+father.  Ismael signed the declaration of paternity as well as 
+Dominic’s birth certificate.  Ismael has had sole custody of 
+Dominic since his birth.  Ismael is married to Brittany’s first 
+cousin once removed, Marie H.  Dominic has lived exclusively 
+with Ismael and Marie in Los Angeles County since his birth.  
+Ismael, Marie, and Dominic are all respondents on appeal. 
+ 
+1 
+Statutory references are to the Family Code unless 
+otherwise indicated. 
+
+ 
+ 
+3 
+ 
+B. 
+The Adoption Case 
+In December 2019, Marie filed a stepparent adoption 
+request to adopt Dominic.  In furtherance of that request, in 
+November 2020, Ismael and Marie filed a petition to terminate 
+Brittany’s parental rights under section 8604, subdivision (b), 
+which allows a birth parent with sole custody to consent to 
+adoption where the other birth parent has abandoned the child.  
+Ismael and Marie also filed a petition under sections 7820 and 
+7822 to free Dominic from Brittany’s custody and control alleging 
+Brittany had abandoned him.  
+In April 2022, Bernardino filed (in Stanislaus County) a 
+petition to declare the existence of a parental relationship under 
+section 7630, alleging he was Dominic’s father.  In May 2022, the 
+trial court (in Los Angeles County) appointed counsel for 
+Bernardino, Brittany, and Dominic, and consolidated and stayed 
+proceedings on Bernardino’s petition after determining it was 
+related to the adoption case.2  
+Also in May 2022, Ismael and Marie filed a petition under 
+section 7662 to determine the necessity of Bernardino’s consent 
+to Dominic’s adoption, given he was an alleged father.  In 
+September 2023, the court determined Bernardino was Dominic’s 
+biological father based on genetic testing.  
+In April 2024, Ismael and Marie filed an amended petition 
+for Dominic’s freedom from parental custody and control that 
+additionally sought termination of Bernardino’s parental rights.  
+ 
+2 
+The court also consolidated and stayed proceedings on a 
+petition to determine parental relationship that Brittany had 
+filed in Los Angeles County in October 2019.  
+
+ 
+ 
+4 
+A five-day bench trial on the multiple petitions to 
+terminate parental rights was held in August and October 2024.  
+At trial, Brittany did not contest the termination of her paternal 
+rights and instead filed a notarized consent to Dominic’s 
+adoption.  
+ 
+C. 
+The Trial Evidence 
+Before trial, the court granted Marie’s unopposed motion to 
+deem true unanswered requests for admission, and determined 
+the following facts were conclusively established:  (1) Bernardino 
+was aware he was possibly Dominic’s father before December 
+2014; (2) Bernardino had known since December 2014 that 
+Dominic was residing with Ismael and Marie; (3) Bernardino had 
+never provided financial support or paid educational or medical 
+expenses for Dominic, nor had he ever received Dominic into his 
+home or had any communication or in-person contact with 
+Dominic; and (4) Bernardino did not take legal action or submit a 
+DNA sample to establish his parentage of Dominic before April 
+2022.  
+Evidence presented at trial showed the following additional 
+facts:   
+Ismael and Marie decided to pursue adoption after being 
+unable to have a biological child.  In 2007, Brittany’s 
+grandmother (and Marie’s aunt) put Brittany and Marie in touch 
+when Brittany was pregnant and seeking to give up the child for 
+adoption.  Marie met with Brittany and later traveled with 
+Ismael to the hospital in San Joaquin County when Brittany 
+went into labor.  Ismael and Marie left the hospital with the child 
+(Dominic’s older biological half-sibling) and drove home to 
+Los Angeles County.  A week later, Brittany retrieved the child 
+
+ 
+ 
+5 
+from Ismael and Marie after informing them she had changed her 
+mind about the adoption.  Ismael and Marie were devastated.  
+Also in 2007, Brittany and Bernardino started dating.  The 
+couple never married but dated on and off and lived together at 
+times.  They share two older biological children in addition to 
+Dominic.  
+In early 2014, Brittany and Bernardino broke up, 
+Bernardino moved into his mother’s home with the two older 
+children, and Brittany began living with her grandmother.  
+Brittany then became homeless, and Bernardino lost track of her 
+until one night in late June 2014.  At that time, Brittany told 
+Bernardino she was pregnant and he was the father.  Brittany 
+went home with Bernardino that night and stayed with him at 
+his mother’s place.  Brittany occasionally stayed with Bernardino 
+over the next few months and then moved in full-time in 
+September or October when Bernardino’s mother asked her to do 
+so on account of the pregnancy.   
+In September 2014, Brittany reached out to Marie, 
+informing her that she was pregnant and asking her if she would 
+like to adopt the child.  A few days later, Ismael and Marie drove 
+to San Joaquin County and met with Brittany.  Brittany stated 
+there was no father in the picture and she did not even know who 
+the father was.  Ismael and Marie agreed to adopt when Brittany 
+threatened she would abandon the child at the hospital.  They 
+collectively agreed to have Ismael sign the birth certificate so 
+that Brittany could not later take the child back.3  
+ 
+3 
+Ismael and Marie testified that the idea of having Ismael 
+sign the birth certificate was Brittany’s, while Brittany testified 
+the idea was Ismael’s.  
+
+ 
+ 
+6 
+In October 2014, Ismael filed (in San Joaquin County) a 
+petition to establish the existence of a parental relationship in 
+which, under penalty of perjury, he falsely described himself as 
+the expected child’s biological father and sought sole legal and 
+physical custody.  Brittany later signed an acknowledgement of 
+her receipt of the petition.  
+In late November, Ismael and Marie traveled to 
+San Joaquin County after learning Brittany was in labor.  At the 
+hospital, Brittany told Marie that she still wanted Marie and 
+Ismael to take the child.  After Dominic’s birth, Ismael and 
+Brittany signed the declaration of paternity, under penalty of 
+perjury, and Ismael signed Dominic’s birth certificate.  Once 
+Dominic was ready to be discharged, Ismael and Marie took him 
+home to Los Angeles County.  
+Brittany had left Bernardino’s mother’s home after telling 
+Bernardino that she was going to her sister’s house.  Before 
+leaving the hospital, Brittany called Bernardino and told him the 
+child had died.  In the next day or so, however, after she returned 
+to Bernardino’s mother’s home, Brittany admitted to Bernardino 
+that the child was alive and that she had given him away to 
+Ismael and Marie.  
+On December 5, Brittany reported to the San Joaquin 
+County Sheriff’s Office that Ismael had “taken” her child to 
+Los Angeles County while acknowledging that she had 
+voluntarily permitted Ismael to sign his name on the child’s birth 
+certificate “in order to grant him custody because she was giving 
+the child up to him.”  The reporting deputy informed Brittany 
+that her complaint “was a civil issue and she needed to contact 
+someone from Family Law.”  Noting there was no custody order 
+
+ 
+ 
+7 
+in place, the deputy also advised Brittany to contact Ismael and 
+try to reach an agreement to regain custody of the child.  
+San Joaquin County Sheriff’s Deputy Richard Ester was 
+assigned to further investigate Brittany’s allegations of perjury 
+based on a fraudulently signed birth certificate.  Ester contacted 
+the San Joaquin County Human Services Agency, which 
+informed him it was aware of the case but was not getting 
+involved because Brittany had “voluntarily surrendered” the 
+child.  He also contacted the hospital, which confirmed that 
+Brittany and Ismael had signed a declaration of paternity upon 
+the child’s birth.  
+Over the next few weeks, Ester interviewed Bernardino’s 
+mother, Brittany, Bernardino, and Brittany’s grandmother, who 
+each relayed the details recounted above.  Brittany stated Ismael 
+signed the birth certificate to avoid the legal adoption process, 
+and that she realized she had made a mistake and was now 
+trying to fix it.  Ester provided Brittany with a copy of the 
+declaration of paternity along with instructions on how to change 
+its information.  Brittany also provided a DNA sample.  
+Bernardino confirmed Brittany had told him he was the 
+father of the child, then told him the child died, and finally told 
+him she had given the child up for adoption.  Bernardino did not 
+provide a DNA sample and instead told Ester he “did not want to 
+do this right now.”  
+Ester also interviewed Ismael and Marie.  Marie stated she 
+and Ismael had taken the child home from the hospital upon 
+Brittany’s confirmation that she wanted to give him up.  Marie 
+also stated Ismael was the child’s father based on a brief sexual 
+relationship he had with Brittany.  Ismael confirmed this 
+account, explaining he was the child’s father based on a one-night 
+
+ 
+ 
+8 
+stand with Brittany.  Ismael also confirmed he and Marie took 
+custody of Dominic with Brittany’s consent.  Ismael and Marie 
+admitted at trial that they lied to Ester when they said Ismael 
+had sex with Brittany.  
+At the conclusion of his investigation, Ester determined—
+without knowledge of Ismael and Marie’s lie—that no criminal 
+activity had occurred.  He was not contacted by any of the 
+witnesses after completing his report.  Likewise, Ismael and 
+Marie were not contacted by Brittany, Bernardino, or anyone else 
+regarding Dominic after the investigation concluded.  
+In June 2015, the San Joaquin County Superior Court 
+entered judgment on Ismael’s petition to establish a parental 
+relationship, indicating the matter was uncontested and finding 
+Ismael was Dominic’s father based on Ismael and Brittany’s 
+signed declaration of paternity.  The court granted Ismael full 
+custody with no visitation for Brittany or any other party.  
+Several months later, about a year after Dominic’s birth, 
+Ismael was contacted by a child protective services agency that 
+was seeking to verify the child’s well-being in connection with an 
+investigation regarding another child of Brittany’s.  Deciding 
+they needed to take action to ensure Dominic was “protected” and 
+“able to stay in a safe and stable home,” Ismael and Marie filed a 
+petition for legal guardianship in Los Angeles County.  In their 
+petition filed in October 2016, Ismael and Marie indicated 
+Brittany had willingly placed Dominic in their custody at his 
+birth but also that Ismael had fraudulently signed the 
+declaration of paternity that provided the basis for the paternity 
+judgment.  Ismael and Marie asked the court to vacate or set 
+
+ 
+ 
+9 
+aside both the declaration and the judgment.4  They further 
+indicated Dominic’s biological father’s identity and whereabouts 
+were unknown to them.  
+Hearings on the guardianship petition were held in 
+January and February 2017.5  Brittany and Bernardino traveled 
+to Los Angeles and were present for the hearings.  
+At the first hearing, the probate court appointed counsel for 
+the child but not for Brittany and Bernardino.6  Ismael and Marie 
+first became aware of Bernardino at that hearing, and 
+Bernardino—who was not a party to the case—told the court that 
+Dominic had been kidnapped and Bernardino was the child’s 
+father.  The court continued the matter.  
+ 
+4  
+The petition was filed shortly before the two-year statute of 
+limitations was set to expire for Ismael or a non-signatory to file 
+a challenge to the voluntary declaration of parentage.  (See 
+§§ 7576, 7577.) 
+5 
+Because the record contains only two brief minute orders 
+and no reporter’s transcript for the hearings on the guardianship 
+petition, most of the facts regarding the proceedings on the 
+petition are drawn from the parties’ testimony in this case. 
+6  
+While acknowledging he was not a party and he and 
+Brittany did not seek appointment of counsel, Bernardino now 
+contends the probate court should have appointed counsel for 
+them as a matter of due process, given it was no secret Ismael 
+and Marie intended to adopt Dominic, and they admitted the 
+judgment of Ismael’s paternity was based on their fraud.  
+Bernardino suggests we should publish an opinion holding 
+probate courts must appoint counsel for indigent parties in 
+Brittany and Bernardino’s position.  We decline to address a 
+proceeding from eight years ago that is not directly at issue in 
+this appeal. 
+
+ 
+ 
+10 
+Between the hearings, a social worker investigated the 
+situation, interviewed Ismael and Marie, and prepared a report 
+for the court’s review.  Ismael and Marie told the social worker 
+and the child’s counsel that Ismael was not the biological father 
+and that he had fraudulently signed the child’s birth certificate.  
+At the second hearing, the court denied the guardianship 
+petition because Ismael was already the legal parent as reflected 
+in the paternity judgment.  Bernardino again told the court that 
+Ismael and Marie had kidnapped Dominic.  Brittany also asked if 
+she had any rights as the child’s mother.  The court explained 
+Ismael had sole custody under the paternity judgment and 
+informed Brittany and Bernardino that they needed to go to 
+family court to raise any complaint regarding Dominic’s 
+parentage or custody.  
+After the guardianship case ended, Ismael and Marie did 
+not have any contact with Bernardino until he filed his petition to 
+determine a parental relationship in April 2022.  Bernardino 
+sought full custody of Dominic in that petition.  But at trial, when 
+asked if he desired custody of the child, Bernardino responded, “I 
+don’t know.  I just want him to know who I am.”  
+ 
+D. 
+The Trial Arguments and Ruling 
+Bernardino argued he should be granted presumed father 
+status under Kelsey S., supra, 1 Cal.4th 816, and that Ismael and 
+Marie’s fraudulent conduct was responsible for his failure to 
+attain that status.  Bernardino also asserted the court should 
+vacate the declaration of paternity and dismiss the adoption 
+petition.  
+Ismael, Marie, and Dominic all argued that Bernardino did 
+not qualify as a presumed father under Kelsey S., emphasizing 
+
+ 
+ 
+11 
+that Bernardino did not promptly act to assert his parental rights 
+even after Ismael and Marie’s fraudulent conduct was revealed.  
+Ismael and Marie asserted termination of Bernardino’s parental 
+rights was in Dominic’s best interest under section 7664.  
+Dominic’s counsel further argued that, even if Bernardino was a 
+Kelsey S. father, he abandoned Dominic under section 7822.  
+In making its ruling, the court started by describing the 
+case as the “messiest, most imperfect, most just tragic adoption 
+proceeding” that it had ever seen.  It also recognized throughout 
+its ruling that Ismael, Marie, and Brittany engaged in fraud, and 
+emphasized that its findings were not meant to condone Ismael 
+and Marie’s conduct, for which it had “disgust.”   
+The court determined that Bernardino was not a presumed 
+father under Kelsey S. because he failed to show a full-fledged 
+commitment to his parental responsibilities to Dominic, either 
+during Brittany’s pregnancy or after the birth.  Because 
+Bernardino was not Dominic’s presumed father, his consent to 
+Dominic’s adoption was not necessary under section 7664.  The 
+court alternatively found that termination of Bernardino’s 
+parental rights was in Dominic’s best interest because 
+Bernardino had abandoned the child under section 7822.  Finally, 
+the court explained it would let the declaration of paternity stand 
+despite its fraudulent origin because doing so was in Dominic’s 
+best interest, which had to “reign[ ] supreme.”  
+The court entered a judgment terminating Bernardino’s 
+parental rights.7  Bernardino timely appealed.  
+ 
+7 
+The written judgment does not terminate Bernardino’s 
+parental rights under section 7664, subdivision (c), and instead 
+reflects only the court’s alternative ruling under section 7822.  
+ 
+
+ 
+ 
+12 
+DISCUSSION 
+A. 
+Termination of Parental Rights Under Section 7664 
+Bernardino argues the trial court erred in denying him 
+presumed father status under Kelsey S., supra, 1 Cal.4th 816.  
+That ruling was the precursor to the court’s determination that 
+Bernardino’s consent to Dominic’s adoption was not necessary, 
+which order also terminated Bernardino’s parental rights under 
+section 7664, subdivision (c).  (See Kelsey S., at p. 823 [“Whether 
+a biological father is a ‘presumed father’ . . . is critical to his 
+parental rights” in adoption proceedings].)  We discern no error in 
+the court’s findings.8 
+1. 
+Applicable law 
+Whether Dominic’s adoption requires Bernardino’s consent 
+depends on whether he is a “presumed father” or merely a 
+biological father.  (Adoption of Michael H. (1995) 10 Cal.4th 1043, 
+1050-1051 (Michael H.); Kelsey S., supra, 1 Cal.4th at p. 823.)  A 
+presumed father can withhold his consent to an adoption unless a 
+court finds, on statutorily specified grounds, that he is unfit.  
+(§§ 8604, subds. (a)-(b), 8606.)  On the other hand, a biological 
+ 
+Further, the relevant minute order also omits the section 7664 
+ruling and states the court found the elements of Probate Code 
+section 1516.5 had been met despite the parties not addressing 
+that statute at trial and the court not referring to it in its oral 
+ruling.  In each instance, we defer to the court’s oral ruling, 
+which is clearly reflected in the reporter’s transcript.  (See In re 
+A.C. (2011) 197 Cal.App.4th 796, 800.)  On remand, the trial 
+court shall correct the written judgment and minute order nunc 
+pro tunc to make them consistent with the court’s oral ruling. 
+8 
+Bernardino does not challenge the trial court’s decision 
+denying his request to vacate the judgment of paternity. 
+
+ 
+ 
+13 
+father who does not qualify as a presumed father has no right to 
+block an adoption unless the court finds it is in the child’s best 
+interest for the father to retain his parental rights.  (§ 7664, 
+subd. (c); Michael H., at pp. 1051-1052.)  When the child’s best 
+interest is instead for an adoption to proceed, the court can order 
+that the biological father’s consent is not required and terminate 
+his parental rights.  (§ 7664, subd. (c).) 
+Under section 7611, a man is presumed to be the father of a 
+child if he has married or attempted to marry the child’s mother 
+or he has received the child into his home and openly held out the 
+child as his natural child.  (§ 7611, subds. (a)-(d).)  Bernardino 
+does not qualify as a presumed father under section 7611. 
+In Kelsey S., however, the Supreme Court held that an 
+unwed biological father who does not qualify as a presumed 
+father under section 7611 may still have a constitutional right to 
+withhold his consent to an adoption where he has been thwarted 
+from attaining statutory presumed father status.  (Kelsey S., 
+supra, 1 Cal.4th at p. 849; accord, Michael H., supra, 10 Cal.4th 
+at pp. 1052, 1054-1055.)  The court recognized that a “child has a 
+genetic bond with its natural parents that is unique among all 
+relationships the child will have throughout its life” (Kelsey S., at 
+p. 848), and “[t]he biological connection between father and child 
+is . . . worthy of constitutional protection if the father grasps the 
+opportunity to develop that biological connection into a full, and 
+enduring relationship” (id. at p. 838). 
+To assert this constitutional right, the biological father 
+must show “he promptly came forward and demonstrated as full 
+a commitment to his parental responsibilities as the biological 
+mother allowed and the circumstances permitted within a short 
+time after he learned or reasonably should have learned that the 
+
+ 
+ 
+14 
+biological mother was pregnant with his child.”  (Michael H., 
+supra, 10 Cal.4th at p. 1060; accord, Kelsey S., supra, 1 Cal.4th at 
+p. 849; see also Adoption of Baby Boy W. (2014) 232 Cal.App.4th 
+438, 452 [biological father must demonstrate “an unequivocal 
+commitment to his parental responsibilities”].)  He must also 
+demonstrate “ ‘a willingness himself to assume full custody of the 
+child—not merely to block adoption by others.’ ”  (Kelsey S., at 
+p. 849.)  When assessing whether a father constitutes a “Kelsey S. 
+father,” the court must consider his conduct “both before and after 
+the child’s birth,” including his “public acknowledgement of 
+paternity, payment of pregnancy and birth expenses 
+commensurate with his ability to do so, and prompt legal action 
+to seek custody of the child.”  (Ibid.; accord, Adoption of Baby 
+Boy W., at p. 452.) 
+A biological father seeking Kelsey S. status bears the 
+burden of establishing the factual predicate for that status.  
+(In re D.S. (2014) 230 Cal.App.4th 1238, 1244; Adoption of O.M. 
+(2008) 169 Cal.App.4th 672, 679-680.)  Bernardino does not 
+challenge any of the court’s factual findings.  When, as here, the 
+trial court determines the father seeking Kelsey S. status has 
+failed to meet his burden of proof, the question on appeal, as in 
+all failure of proof cases, is “ ‘whether the evidence compels a 
+finding in favor of the appellant[] as a matter of law.’ ”  
+(In re Aurora P. (2015) 241 Cal.App.4th 1142, 1163; accord, 
+In re Matthew M. (2023) 88 Cal.App.5th 1186, 1194.)  Whether 
+the facts satisfy the legal standard established by Kelsey S. is a 
+mixed question of law and fact, and “we exercise our independent 
+judgment in measuring the facts against the applicable legal 
+standard.”  (Adoption of Myah M. (2011) 201 Cal.App.4th 1518, 
+1539.) 
+
+ 
+ 
+15 
+2. 
+The evidence did not compel a finding that 
+Bernardino qualified as a Kelsey S. father 
+The court found, and Bernardino admits, Bernardino has 
+never met or communicated with Dominic or provided the child 
+with any financial, emotional, or practical support.  While 
+Bernardino provided some support to Brittany before Dominic 
+was born and Ismael and Marie (and Brittany) thwarted his 
+ability to assert parental rights at and immediately after 
+Dominic’s birth, Bernardino knew Dominic was residing with 
+Ismael and Marie in December 2014 and did not take legal action 
+to establish his parentage until April 2022.  These facts do not 
+demonstrate a prompt and full commitment to parental 
+responsibilities that is required for Kelsey S. status.   
+Bernardino also concedes that, despite his pursuit of “the 
+right to veto any adoption,” he is not seeking custody of Dominic.  
+Rather, he “only wants Dominic to know the truth of his origins 
+and who he is and who his father is and, possibly, for visitation.”  
+But as discussed, to gain presumed father status, a biological 
+father must demonstrate “ ‘a willingness himself to assume full 
+custody of the child—not merely to block adoption by others.’ ”  
+(Kelsey S., supra, 1 Cal.4th at p. 849; see also Adoption of T.K. 
+(2015) 240 Cal.App.4th 1392, 1401 [“If an unwed father’s 
+assertion of full commitment to the responsibilities of parenthood 
+means anything, it means he must be prepared to support the 
+child in his own home with his own resources”]; Adoption of 
+Myah M., supra, 201 Cal.App.4th at p. 1540 [where “record 
+establishe[d] that mother and father are not able or willing to 
+take immediate custody” of child, parents did not meet Kelsey S. 
+requirements]; Adoption of O.M., supra, 169 Cal.App.4th at 
+p. 681 [biological father not entitled to Kelsey S. status where he 
+
+ 
+ 
+16 
+did not seek full custody of child, but rather sought “only legal 
+custody, while relegating physical custody to his parents until he 
+is released from his present lengthy incarceration”].)   
+Instead of arguing that he met the Kelsey S. criteria, 
+Bernardino effectively argues he should be excused from doing so 
+in light of Ismael and Marie’s fraudulent conduct.  He further 
+implicates the San Joaquin County Sheriff’s Office, the San 
+Joaquin County Human Services Agency, and the probate court 
+that denied Ismael and Marie’s guardianship petition in 2017 
+and argues these government entities should have done more to 
+reveal and undo that fraudulent conduct.  Bernardino asserts 
+these circumstances show this is a unique case, requiring a 
+unique solution.   
+We readily agree with Bernardino that dishonesty and 
+deceit abound in this case and more thorough investigations by 
+the involved agencies early on could have led to a different 
+outcome.  The trial court also acknowledged that the “under the 
+table” adoption and subsequent cover-up in this case are more 
+egregious than the circumstances of a typical Kelsey S. case.  But 
+as lurid as the facts of this case may be, they do not justify 
+departing from the framework set forth in Kelsey S.  The 
+Kelsey S. analysis turns not on the frustration of a biological 
+father’s ability to assert his parental rights but rather on what 
+the father has done in response to that frustration.  (See 
+Kelsey S., supra, 1 Cal.4th at p. 849 [“[o]nce the father knows or 
+reasonably should know of the pregnancy, he must promptly 
+attempt to assume his parental responsibilities as fully as the 
+mother will allow and his circumstances permit”], italics added.)   
+Bernardino’s response to the chain of events was not a 
+timely attempt to assume his parental responsibilities as fully as 
+
+ 
+ 
+17 
+his circumstances permitted.  Bernardino refused to give a DNA 
+sample during the San Joaquin County Sheriff’s investigation in 
+2014.  Had he provided a DNA sample, it is highly unlikely the 
+sheriff’s deputy would have accepted Marie and Ismael’s 
+misrepresentation that Ismael was Dominic’s biological father.  
+As the trial court found, Bernardino’s refusal to get tested 
+showed a lack of commitment to parenting Dominic.  
+Further, when Bernardino attended the 2017 guardianship 
+proceedings and the probate court advised him that he needed to 
+file any claim for parental rights in family court, he failed to do so 
+until 2022, more than five years later.  The trial court properly 
+determined that once Bernardino became aware through the 
+guardianship proceedings of the identity of the man who claimed 
+to be Dominic’s father, “he should have pursued his rights and 
+responsibilities as a father more vehemently, more adamantly, 
+and more thoroughly in a committed manner to show . . . he 
+wanted his child.”  Bernardino’s inaction is thus at least partially 
+to blame for his failure to assume a parental role.  (See Adoption 
+of O.M., supra, 169 Cal.App.4th at pp. 680-681 [father’s crime 
+and incarceration responsible for failure to qualify for Kelsey S. 
+status, not just mother’s refusal to communicate].) 
+Because Bernardino failed to demonstrate a prompt and 
+full commitment to his parental rights, the trial court properly 
+concluded he was not a presumed father under Kelsey S.  
+Bernardino does not challenge the court’s subsequent 
+determination that adoption was in Dominic’s best interest.9  
+ 
+9 
+Even if he had, substantial evidence supports the finding as 
+to Dominic’s best interest.  At the time of trial, Dominic was 
+almost 10 years old and had been living with Ismael and Marie 
+ 
+
+ 
+ 
+18 
+Thus, the court did not err in ordering that Bernardino’s consent 
+to the child’s adoption was not necessary and terminating his 
+parental rights as a biological father under section 7664, 
+subdivision (c).10 
+ 
+B. 
+ICWA Conditional Reversal 
+Although the trial court properly terminated Bernardino’s 
+parental rights under section 7664, we agree with the parties 
+that conditional reversal of the judgment is necessary because 
+ 
+since birth.  Ismael and Marie each had a loving bond with 
+Dominic, and they were fully providing for his needs.  They were 
+also the only parents he had ever known.  Bernardino conceded in 
+the trial court and on appeal that remaining in Ismael and 
+Marie’s care was best for Dominic.  
+10 
+The court alternatively found that, even if Bernardino did 
+qualify as a Kelsey S. father, he abandoned the child under 
+section 7822.  That abandonment ruling is supported by the same 
+substantial evidence that supports the Kelsey S. determination.  
+(See § 7822, subd. (a)(2) [court may declare a child free from a 
+parent’s custody and control if the parent has left the child “in 
+the care and custody of another person for a period of six months 
+without any provision for the child’s support, or without 
+communication from the parent . . . , with the intent on the part 
+of the parent . . . to abandon the child]; id., subd. (b) [the “failure 
+to provide support[ ] or failure to communicate is presumptive 
+evidence of the intent to abandon”]; Adoption of A.B. (2016) 
+2 Cal.App.5th 912, 923-924 [father’s perfunctory efforts to see 
+and communicate with child and lack of active inquiry or pursuit 
+of visitation for more than four years was sufficient to show 
+intent to abandon]; In re Adoption of Allison C. (2008) 
+164 Cal.App.4th 1004, 1013 [father’s failure to communicate with 
+or provide support for child for over three years showed intent to 
+abandon].) 
+
+ 
+ 
+19 
+the court and the petitioning parties did not fulfill their duty to 
+inquire whether Dominic is, or might be, an Indian child.  
+Congress enacted ICWA to protect Indian children and “to 
+promote the stability and security of Indian tribes and families” 
+by formalizing federal policy and standards regarding the 
+removal and placement of Indian children outside the family 
+home.  (25 U.S.C. § 1902; see In re Dezi C. (2024) 16 Cal.5th 1112, 
+1129 (Dezi C.).)  “ICWA establishes minimum standards for state 
+courts to follow before removing Indian children from their 
+families and placing them in foster care or adoptive homes.”  
+(Dezi C., at p. 1129; see 25 U.S.C. §§ 1902, 1921.)  “[W]hen ICWA 
+applies, ‘the Indian child’s tribe shall have a right to intervene at 
+any point’ in a proceeding involving the removal of an Indian 
+child from their family.”  (Dezi C., at p. 1129; see 25 U.S.C. 
+§ 1911(c); In re Isaiah W. (2016) 1 Cal.5th 1, 8.) 
+ICWA applies in proceedings to terminate parental rights.  
+(See §§ 170, subd. (c), 177, subd. (a), 180; see also Cal. Rules of 
+Court, rule 5.480.)11  As a result, the court and any petitioner 
+seeking a termination of parental rights have an affirmative and 
+continuing duty to inquire whether a child who is subject to the 
+proceedings is, or may be, an Indian child.  (Welf. & Inst. Code, 
+§ 224.2, subd. (a); rule 5.481(a).)  This duty to inquire “includes, 
+but is not limited to, asking the child, parents, legal guardian, 
+Indian custodian, extended family members, others who have an 
+interest in the child, and the party reporting child abuse or 
+neglect, whether the child is, or may be, an Indian child.”  (Welf. 
+& Inst. Code, § 224.2, subd. (b)(2); rule 5.481(a)(1)-(2).) 
+ 
+11  
+All references to rules are to the California Rules of Court. 
+
+ 
+ 
+20 
+When an ICWA inquiry is inadequate, prejudice is 
+impossible to ascertain.  (Dezi C., supra, 16 Cal.5th at p. 1136.)  
+Under these circumstances, remand is required along with 
+directions to the court and any other responsible party to fully 
+comply with the duty of inquiry—and, when necessary, ICWA’s 
+further notice requirements—and to document said compliance.  
+(Ibid.) 
+Along with the 2019 adoption request, Ismael and Marie 
+each submitted a signed form denying any Indian ancestry.  (See 
+rule 5.480(a)(1).)  But there is no indication elsewhere in the 
+record that inquiry was made regarding the potential Indian 
+ancestry of Dominic, Brittany, Bernardino, or any members of the 
+child’s extended biological family, including Bernardino’s mother 
+and Brittany’s grandmother.  The record also does not include a 
+finding from the court at the trial that culminated in the 
+termination of Bernardino’s parental rights as to whether ICWA 
+applied.  Accordingly, we conditionally reverse the judgment 
+terminating parental rights and remand the matter for the court 
+and petitioning parties to fulfill their duty of inquiry and, if 
+necessary, further notice obligations under ICWA. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+21 
+DISPOSITION 
+The judgment terminating Bernardino’s parental rights is 
+conditionally reversed.  If, after reasonable inquiry, the court 
+finds there is no reason to believe Dominic is an Indian child, or if 
+no tribe or agency determines Dominic is an Indian child after 
+notice has been provided under ICWA, the judgment shall be 
+reinstated.  If, on the other hand, a tribe determines Dominic is 
+an Indian child and the trial court finds ICWA applies, the court 
+shall proceed in accordance with ICWA. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+STONE, J. 
+We concur: 
+ 
+ 
+ 
+ 
+ 
+SEGAL, Acting P. J. 
+ 
+ 
+ 
+FEUER, J. 
+
