@@ -73,89 +73,89 @@ class ProBrepDeployment:
             
     def test_connection(self):
         """Test FTP connection to ProBrep.com"""
-        print("🔍 Testing ProBrep.com FTP Connection...")
+        print(" Testing ProBrep.com FTP Connection...")
         print("=" * 50)
         
         if not self.config:
-            print("❌ Configuration not available")
+            print("[ERROR] Configuration not available")
             return False
             
         try:
             # Test FTP connection
-            print(f"📡 Connecting to: {self.config.get('ftp_host', 'Unknown')}")
+            print(f"[CONNECT] Connecting to: {self.config.get('ftp_host', 'Unknown')}")
             
             ftp = ftplib.FTP()
             ftp.connect(self.config['ftp_host'])
             
-            print(f"🔐 Authenticating as: {self.config.get('ftp_username', 'Unknown')}")
+            print(f" Authenticating as: {self.config.get('ftp_username', 'Unknown')}")
             ftp.login(self.config['ftp_username'], self.config['ftp_password'])
             
-            print("✅ FTP connection successful!")
+            print("[SUCCESS] FTP connection successful!")
             
             # Test directory access
             try:
                 ftp.cwd('public_html')
-                print("📁 Successfully accessed public_html directory")
+                print("[FOLDER] Successfully accessed public_html directory")
                 
                 # List some contents
                 files = ftp.nlst()
-                print(f"📋 Found {len(files)} items in public_html")
+                print(f" Found {len(files)} items in public_html")
                 
             except Exception as e:
-                print(f"⚠️  Could not access public_html: {e}")
-                print("🔄 Will use root directory for deployment")
+                print(f"[WARNING]  Could not access public_html: {e}")
+                print(" Will use root directory for deployment")
             
             ftp.quit()
             
-            print("🎯 Connection test completed successfully!")
+            print(" Connection test completed successfully!")
             print("=" * 50)
             return True
             
         except Exception as e:
-            print(f"❌ Connection test failed: {e}")
+            print(f"[ERROR] Connection test failed: {e}")
             print("=" * 50)
             self.logger.error(f"Connection test failed: {e}")
             return False
     
     def deploy_website(self):
         """Deploy website content to ProBrep.com"""
-        print("🚀 Deploying Website to ProBrep.com...")
+        print(" Deploying Website to ProBrep.com...")
         print("=" * 50)
         
         if not self.config:
-            print("❌ Configuration not available")
+            print("[ERROR] Configuration not available")
             return False
             
         try:
             # Connect to FTP
-            print("📡 Establishing FTP connection...")
+            print("[CONNECT] Establishing FTP connection...")
             ftp = ftplib.FTP()
             ftp.connect(self.config['ftp_host'])
             ftp.login(self.config['ftp_username'], self.config['ftp_password'])
             
-            print("✅ FTP connection established")
+            print("[SUCCESS] FTP connection established")
             
             # Navigate to public_html if possible
             try:
                 ftp.cwd('public_html')
-                print("📁 Changed to public_html directory")
+                print("[FOLDER] Changed to public_html directory")
             except:
-                print("⚠️  Using root directory")
+                print("[WARNING]  Using root directory")
             
             # Upload website content
-            print("📤 Starting file upload...")
+            print(" Starting file upload...")
             uploaded_count = self._upload_directory_recursive(ftp, self.script_dir, "")
             
             ftp.quit()
             
-            print(f"✅ Deployment completed: {uploaded_count} files uploaded")
+            print(f"[SUCCESS] Deployment completed: {uploaded_count} files uploaded")
             print("=" * 50)
             
             self.logger.info(f"Deployment successful: {uploaded_count} files uploaded")
             return True
             
         except Exception as e:
-            print(f"❌ Deployment failed: {e}")
+            print(f"[ERROR] Deployment failed: {e}")
             print("=" * 50)
             self.logger.error(f"Deployment failed: {e}")
             return False
@@ -169,7 +169,7 @@ class ProBrepDeployment:
             if remote_dir:
                 try:
                     ftp.mkd(remote_dir)
-                    print(f"📁 Created directory: {remote_dir}")
+                    print(f"[FOLDER] Created directory: {remote_dir}")
                 except:
                     pass  # Directory might exist
                 ftp.cwd(remote_dir)
@@ -184,11 +184,11 @@ class ProBrepDeployment:
                 if item.is_file():
                     # Skip certain files
                     if self._should_skip_file(item):
-                        print(f"⏭️  {progress} Skipping: {item.name}")
+                        print(f"[NEXT]  {progress} Skipping: {item.name}")
                         continue
                     
                     try:
-                        print(f"📤 {progress} Uploading: {item.name}")
+                        print(f" {progress} Uploading: {item.name}")
                         
                         with open(item, 'rb') as f:
                             ftp.storbinary(f'STOR {item.name}', f)
@@ -196,11 +196,11 @@ class ProBrepDeployment:
                         uploaded_count += 1
                         
                     except Exception as e:
-                        print(f"❌ {progress} Failed to upload {item.name}: {e}")
+                        print(f"[ERROR] {progress} Failed to upload {item.name}: {e}")
                         self.logger.warning(f"Upload failed for {item.name}: {e}")
                         
                 elif item.is_dir() and not item.name.startswith('.'):
-                    print(f"📁 {progress} Processing directory: {item.name}")
+                    print(f"[FOLDER] {progress} Processing directory: {item.name}")
                     
                     try:
                         ftp.mkd(item.name)
@@ -216,7 +216,7 @@ class ProBrepDeployment:
                 ftp.cwd('..')
                 
         except Exception as e:
-            print(f"❌ Error processing directory {local_dir}: {e}")
+            print(f"[ERROR] Error processing directory {local_dir}: {e}")
             self.logger.error(f"Directory upload error: {e}")
             
         return uploaded_count
@@ -242,94 +242,94 @@ class ProBrepDeployment:
     
     def verify_deployment(self):
         """Verify the deployment was successful"""
-        print("🔍 Verifying ProBrep.com Deployment...")
+        print(" Verifying ProBrep.com Deployment...")
         print("=" * 50)
         
         if not self.config:
-            print("❌ Configuration not available")
+            print("[ERROR] Configuration not available")
             return False
             
         website_url = self.config.get('website_url', 'https://probrep.com')
         
         try:
-            print(f"🌐 Testing website accessibility: {website_url}")
+            print(f"[WEB] Testing website accessibility: {website_url}")
             
             # Test main website
             response = urllib.request.urlopen(website_url, timeout=15)
             status_code = response.getcode()
             
             if status_code == 200:
-                print(f"✅ Website is accessible (Status: {status_code})")
+                print(f"[SUCCESS] Website is accessible (Status: {status_code})")
                 
                 # Read some content to verify it's not just a placeholder
                 content = response.read().decode('utf-8', errors='ignore')
                 
                 if len(content) > 1000:  # Basic content check
-                    print(f"✅ Website has substantial content ({len(content)} characters)")
+                    print(f"[SUCCESS] Website has substantial content ({len(content)} characters)")
                     
                     # Check for key elements
                     if 'episodes' in content.lower():
-                        print("✅ Episode content detected")
+                        print("[SUCCESS] Episode content detected")
                     if 'california' in content.lower():
-                        print("✅ California probate content detected")
+                        print("[SUCCESS] California probate content detected")
                         
                 else:
-                    print("⚠️  Website content seems limited")
+                    print("[WARNING]  Website content seems limited")
                 
-                print("🎯 Deployment verification successful!")
+                print(" Deployment verification successful!")
                 print("=" * 50)
                 return True
                 
             else:
-                print(f"⚠️  Website returned status code: {status_code}")
+                print(f"[WARNING]  Website returned status code: {status_code}")
                 print("=" * 50)
                 return False
                 
         except urllib.error.URLError as e:
-            print(f"❌ Website not accessible: {e}")
+            print(f"[ERROR] Website not accessible: {e}")
             print("=" * 50)
             return False
             
         except Exception as e:
-            print(f"❌ Verification failed: {e}")
+            print(f"[ERROR] Verification failed: {e}")
             print("=" * 50)
             return False
     
     def show_status(self):
         """Display current configuration and status"""
-        print("📊 ProBrep.com Deployment Status")
+        print(" ProBrep.com Deployment Status")
         print("=" * 50)
         
         if self.config:
-            print("✅ Configuration Status: LOADED")
-            print(f"📡 FTP Host: {self.config.get('ftp_host', 'Not configured')}")
-            print(f"👤 FTP Username: {self.config.get('ftp_username', 'Not configured')}")
-            print(f"🌐 Website URL: {self.config.get('website_url', 'Not configured')}")
+            print("[SUCCESS] Configuration Status: LOADED")
+            print(f"[CONNECT] FTP Host: {self.config.get('ftp_host', 'Not configured')}")
+            print(f" FTP Username: {self.config.get('ftp_username', 'Not configured')}")
+            print(f"[WEB] Website URL: {self.config.get('website_url', 'Not configured')}")
         else:
-            print("❌ Configuration Status: NOT LOADED")
-            print("🔧 Check godaddy_config.json file exists and is valid")
+            print("[ERROR] Configuration Status: NOT LOADED")
+            print(" Check godaddy_config.json file exists and is valid")
         
         # Check if website directory exists and has content
         if self.script_dir.exists():
-            print(f"✅ Website Directory: {self.script_dir}")
+            print(f"[SUCCESS] Website Directory: {self.script_dir}")
             
             # Count files
             html_files = list(self.script_dir.glob("*.html"))
             css_files = list(self.script_dir.glob("*.css"))
             js_files = list(self.script_dir.glob("*.js"))
             
-            print(f"📄 HTML files: {len(html_files)}")
-            print(f"🎨 CSS files: {len(css_files)}")
-            print(f"⚙️  JS files: {len(js_files)}")
+            print(f"[FILE] HTML files: {len(html_files)}")
+            print(f" CSS files: {len(css_files)}")
+            print(f"[GEAR]  JS files: {len(js_files)}")
             
             # Check for key files
             if (self.script_dir / "index.html").exists():
-                print("✅ Main index.html found")
+                print("[SUCCESS] Main index.html found")
             else:
-                print("❌ index.html not found")
+                print("[ERROR] index.html not found")
                 
         else:
-            print("❌ Website directory not found")
+            print("[ERROR] Website directory not found")
         
         print("=" * 50)
 
@@ -359,8 +359,8 @@ Examples:
     # Create deployment instance
     deployment = ProBrepDeployment()
     
-    print(f"🌐 ProBrep.com Deployment Tool - {args.action.upper()}")
-    print(f"⏰ Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"ProBrep.com Deployment Tool - {args.action.upper()}")
+    print(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print()
     
     # Execute requested action
@@ -377,13 +377,13 @@ Examples:
         success = True
     
     print()
-    print(f"⏰ Completed at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"[TIME] Completed at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
     if success:
-        print("✅ Operation completed successfully!")
+        print("[SUCCESS] Operation completed successfully!")
         sys.exit(0)
     else:
-        print("❌ Operation failed!")
+        print("[ERROR] Operation failed!")
         sys.exit(1)
 
 

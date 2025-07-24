@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ProBrep Debug Test</title>
+</head>
+<body>
+    <h1>ProBrep Debug Test</h1>
+    
+    <h2>Image Tests</h2>
+    <p>Testing if cover images load:</p>
+    <img src="covers/cover_opinions.png" alt="Cover Opinions" style="width: 100px;">
+    <img src="cover_opinions.png" alt="Cover Opinions Alt" style="width: 100px;">
+    
+    <h2>JavaScript Test</h2>
+    <p>Episode count: <span id="episodeCount">Loading...</span></p>
+    
+    <script>
+        console.log("Debug script started");
+        
+        // Test if episodes array exists
+        try {
+            if (typeof episodes !== 'undefined') {
+                document.getElementById('episodeCount').textContent = episodes.length;
+                console.log("Episodes found:", episodes.length);
+            } else {
+                document.getElementById('episodeCount').textContent = "Episodes array not defined";
+                console.log("Episodes array not defined");
+            }
+        } catch (e) {
+            document.getElementById('episodeCount').textContent = "Error: " + e.message;
+            console.error("Error accessing episodes:", e);
+        }
+        
+        // Test DOM elements
+        const episodeGrid = document.getElementById('episodeGrid');
+        const searchBox = document.getElementById('searchBox');
+        
+        console.log("Episode grid element:", episodeGrid);
+        console.log("Search box element:", searchBox);
+        
+        // Test if renderEpisodes function exists
+        if (typeof renderEpisodes === 'function') {
+            console.log("renderEpisodes function exists");
+        } else {
+            console.log("renderEpisodes function NOT exists");
+        }
+    </script>
+</body>
+</html>
